@@ -1,0 +1,35 @@
+  <nav class="bg-dark">
+    <a >Frontend Interview Questions</a>
+    <ul>   
+        <li >
+            <form >
+                <select class="ms-2"  id="choose">
+                    <option value="">Choose...</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javscript">JavaScript</option>
+                    <option value="react">React</option>
+                    <option value="angular">Angular</option>
+                    <option value="nodejs">Node.js</option>
+                    <option value="sql">SQL</option>
+                    <option value="git">Git</option>
+
+                </select>
+            </form>
+        </li>
+        
+        <li class="nav-item ms-4">
+          <a class="nav-link" [routerLink]="['home']">Home</a>
+        </li>
+        <li class="nav-item ms-3">
+            <a class="nav-link" [routerLink]="['books']">Recommended books</a>
+          </li>
+          <li class="nav-item ms-3">
+            <a class="nav-link" [routerLink]="['courses']">Recommended courses</a>
+          </li>
+        <li class="nav-item ms-3 contact">
+          <a class="nav-link" [routerLink]="['contact']">Contact</a>
+        </li>
+      </ul>
+
+  </nav>

@@ -1,0 +1,39 @@
+nav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+    a{
+        color: white;
+    }
+
+
+    ul{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        
+
+
+        select{
+            border:1px solid gainsboro;
+            padding: 5px;
+            width: 150px;
+            cursor: pointer;
+
+
+            &:active{
+                border: none;
+            }
+        }
+
+        li{
+            list-style-type: none;
+        }
+
+        .contact{
+            margin-left: 30px;
+            color: white;
+        }
+    }
+}

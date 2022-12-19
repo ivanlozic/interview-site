@@ -1,0 +1,29 @@
+.slider{
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.slide {
+  display: none;
+  margin-top: 50px;
+}
+
+.active {
+  display: block;
+}
+
+
+img {
+    width: 100%;
+    height: 300px;
+}
+p {
+    width: 100%;
+}
+
+
+button{
+    height: 50px;
+    margin: 10px;
+}

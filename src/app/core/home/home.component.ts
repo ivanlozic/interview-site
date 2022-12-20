@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
     this.counter = index;
   }
 
-  prev(): void {
+  prevButton(): void {
     const items = document.querySelectorAll('.slide');
 
     let newIndex = this.counter - 1;
@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
     this.updateCarousel(newIndex);
   }
 
-  next(): void {
+  nextButton(): void {
     const items = document.querySelectorAll('.slide');
 
     let newIndex = this.counter + 1;

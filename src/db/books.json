@@ -1,0 +1,89 @@
+[
+    {
+        "_id": 0,
+        "title": "HTML and CSS: Design and Build Websites 1st Edition",
+        "description": "A full-color introduction to the basics of HTML and CSS from the publishers of Wrox! Every day, more and more people want to learn some HTML and CSS. Joining the professional web designers and programmers are new audiences who need to know a little bit of code at work (update a content management system or e-commerce store) and those who want to make their personal blogs more attractive. Many books teaching HTML and CSS are dry and only written for those who want to become programmers, which is why this book takes an entirely new approach.",
+        "author":"Jon Duckett",
+        "link":"https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_1?keywords=html+and+css+design+and+build+websites&qid=1672065103&s=books&sprefix=html+and+c%2Cstripbooks-intl-ship%2C393&sr=1-1"
+
+    },
+    {
+        "_id": 1,
+        "title": "Eloquent JavaScript",
+        "description": "Eloquent JavaScript is a comprehensive and highly accessible introduction to the JavaScript programming language and web development. It covers the core programming concepts and syntax of JavaScript, as well as exploring more advanced topics such as functional programming and working with the Document Object Model (DOM). The book is written in a clear and concise style, making it an ideal resource for beginners to learn JavaScript and for experienced programmers looking to improve their skills.",
+        "author":"Marijn Haverbeke",
+        "link":"https://www.amazon.com/Eloquent-JavaScript-3rd-Introduction-Programming/dp/1593279507/ref=sr_1_1?keywords=eloquent+javascript&qid=1672064460&s=books&sprefix=eloq%2Cstripbooks-intl-ship%2C190&sr=1-1"
+
+    },
+    {
+        "_id": 2,
+        "title": " JavaScript And JQuery: Interactive Front-End Web Development",
+        "description": "JavaScript and JQuery: Interactive Front-End Web Development is a comprehensive guide to building interactive and engaging web applications using JavaScript and JQuery. The book covers a wide range of topics, including how to use JavaScript to manipulate the DOM, work with events and handle user input, and use JQuery to build complex and dynamic user interfaces.",
+        "author":"Jon Duckett",
+        "link":"https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_1?keywords=javascript+and+jquery+interactive+front-end+web+development&qid=1672064485&s=books&sprefix=javascript+and+%2Cstripbooks-intl-ship%2C205&sr=1-1"
+
+    },
+    {
+        "_id": 3,
+        "title": " JavaScript: The Good Parts ",
+        "description": "JavaScript: The Good Parts is a book written by Douglas Crockford that aims to provide a guide to the key, most reliable, and most useful parts of the JavaScript programming language. The book covers topics such as syntax, objects, functions, and the JSON data format, and provides an in-depth look at the good parts of JavaScript, as well as how to avoid the bad parts. It is intended for intermediate to advanced programmers who want to improve their understanding and mastery of JavaScript. Throughout the book, Crockford uses examples and case studies to illustrate key concepts and best practices for using JavaScript effectively. Overall, JavaScript: The Good Parts is a valuable resource for anyone looking to improve their skills as a JavaScript programmer.",
+        "author":"Douglas Crockford",
+        "link":"https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?keywords=javascript+the+good+parts&qid=1672064515&s=books&sprefix=javascr%2Cstripbooks-intl-ship%2C191&sr=1-1"
+    },
+    {
+        "_id": 4,
+        "title": "Secrets of the JavaScript Ninja",
+        "description": "Secrets of the JavaScript Ninja is a book written by John Resig and Bear Bibeault that aims to teach readers advanced JavaScript programming techniques. It is geared towards intermediate to advanced programmers who are looking to take their skills to the next level and become JavaScript ninjas. The book covers a wide range of topics, including language fundamentals, design patterns, testing, and performance optimization. It also includes practical tips and tricks for working with the DOM, events, and other browser APIs.",
+        "author":"John Resig and Bear Bibeault",
+        "link":"https://www.amazon.com/Secrets-of-JavaScript-Ninja-audiobook/dp/B07HXSCRYK/ref=sr_1_1?keywords=secrets+of+the+javascript+ninja&qid=1672064587&s=books&sprefix=secrets+of+java%2Cstripbooks-intl-ship%2C186&sr=1-1"
+
+    },
+    {
+        "_id": 5,
+        "title": "HTML5: The Missing Manual",
+        "description": "HTML5: The Missing Manual is a book written by Matthew MacDonald that provides a comprehensive guide to the HTML5 programming language. HTML5 is the latest version of the HTML standard, which is the primary language used for creating and structuring content on the web. It includes a range of new features and capabilities, such as support for audio and video playback, offline storage, and graphics rendering, that allow developers to build more powerful and interactive web applications.",
+        "author":"Matthew MacDonald",
+        "link":"https://www.amazon.com/HTML5-Missing-Manual-Manuals/dp/1449363261/ref=sr_1_1?crid=1ME4XWAMZ2C9&keywords=html5+the+missing+manual&qid=1672065188&sprefix=html5+the+missing+manual%2Caps%2C195&sr=8-1"
+
+    },
+    {
+        "_id": 6,
+        "title": "Learning Web Design: A Beginner's Guide To HTML, CSS, JavaScript, And Web Graphics",
+        "description": "Learning Web Design: A Beginner's Guide to HTML, CSS, JavaScript, and Web Graphics is a book written by Jennifer Niederst Robbins that provides a comprehensive introduction to the fundamentals of web design. It is intended for beginners who are interested in learning how to create and develop websites, and covers all of the key concepts and technologies involved in the process.",
+        "author":"Jennifer Niederst Robbins",
+        "link":"https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript/dp/1491960205/ref=sr_1_1?keywords=learning+web+design+a+beginner%27s+guide+to+html&qid=1672064680&sprefix=learning+web+de%2Caps%2C190&sr=8-1"
+
+    },
+    {
+        "_id": 7,
+        "title": "Front-End Development: The Big Nerd Ranch Guide",
+        "description": "Front-End Development: The Big Nerd Ranch Guide is a book written by Chris Aquino and Todd Gandee that provides a comprehensive introduction to front-end web development. Front-end development refers to the process of creating and implementing the visual and interactive elements of a website or web application, using technologies such as HTML, CSS, and JavaScript.The book is organized into two main parts: the first covers the foundations of front-end development, including HTML and CSS, and the second covers more advanced topics such as responsive design, JavaScript, and working with APIs. Throughout the book, the authors provide clear and concise explanations of key concepts, along with examples and exercises to help readers practice and apply what they have learned.",
+        "author":"Chris Aquino and Todd Gandee ",
+        "link":"https://www.amazon.com/Front-End-Web-Development-Ranch-Guides/dp/0134433947/ref=sr_1_1?keywords=front-end+web+development+the+big+nerd+ranch+guide&qid=1672064713&sprefix=the+big+nerd+ranch+guide%2Caps%2C189&sr=8-1"
+
+    },
+    {
+        "_id": 8,
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "description": "Clean Code: A Handbook of Agile Software Craftsmanship is a book written by Robert C. Martin that aims to provide guidelines and best practices for writing clean, maintainable, and efficient code. The book is based on the idea that code is a craft, and that software developers should strive to create code that is easy to read, understand, and modify, rather than code that is merely functional.The book covers a range of topics related to code quality and design, including code formatting, naming conventions, testing, and refactoring. It also includes chapters on broader software development concepts, such as the SOLID principles of object-oriented design and the role of communication and collaboration in the software development process.",
+        "author":"Robert C. Martin (also known as 'Uncle Bob')",
+        "link":"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?crid=J9KGT8ZKQ39F&keywords=clean+code&qid=1672064737&sprefix=clean+code%2Caps%2C178&sr=8-1"
+
+    },
+    {
+        "_id": 9,
+        "title": "Clean Architecture",
+        "description": "Clean architecture is a software design philosophy and architectural pattern that focuses on the separation of concerns within an application. It is based on the idea that a software system should be divided into distinct, independent layers, each with a specific responsibility. This allows for better modularity, testability, and maintainability, and makes it easier to add or modify features without affecting the rest of the system. At the core of clean architecture is the concept of 'separation of concerns,' which means that each layer of the system should handle a specific aspect of the application, such as the user interface, business logic, or data persistence. These layers are typically organized around business rules, rather than technical details, and are decoupled from one another to allow for flexibility and change..",
+        "author":"Robert C. Martin (also known as 'Uncle Bob')",
+        "link":"https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?keywords=clean+architecture&qid=1672064751&sprefix=clean+ar%2Caps%2C194&sr=8-1"
+
+    },
+    {
+        "_id": 10,
+        "title": "You Don't Know JS Yet",
+        "description":"You Don't Know JS Yet is a series of six books written by Kyle Simpson that aim to provide a comprehensive and in-depth guide to the JavaScript programming language. The series covers a wide range of topics, from the basics of JavaScript syntax and data types to more advanced concepts such as asynchronous programming, functional programming, and working with the DOM.Each book in the series is focused on a specific aspect of JavaScript, and is designed to be read sequentially, starting with the first book and progressing through the series. The books are written in a clear and concise style, and include numerous examples and exercises to help readers practice and apply what they have learned.The series is intended for intermediate to advanced programmers who are looking to improve their understanding and mastery of JavaScript. However, it is also suitable for beginners who have a strong foundation in programming and are looking to learn JavaScript in depth.Overall, 'You Don't Know JS Yet' is an excellent resource for anyone looking to learn or improve their skills in JavaScript, and provides a comprehensive and in-depth look at all aspects of the language.",
+        "author":"Kyle Simpson",
+        "link":"https://www.amazon.com/YOU-DON%60T-KNOW-JS-SET/dp/9352136268"
+
+    }
+ ]

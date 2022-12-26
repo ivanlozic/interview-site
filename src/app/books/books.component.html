@@ -1,1 +1,29 @@
-<p>books works!</p>
+<div class="row me-4 ms-4">
+  <div class="col-6 mb-5" *ngFor="let book of books">
+    <div class="row">
+      <div class="col-5">
+        <img
+          src="http://localhost:3000/image/{{ book._id }}.jpg"
+          alt="Book Cover"
+        />
+      </div>
+      <div class="col">
+        <div>
+          <h4>{{ book.title }}</h4>
+          <p>{{ book.description }}</p>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <p class=" d-flex justify-content-between">
+              <span>
+                Author: <strong>{{ book.author }}</strong></span
+              >
+              <button class="btn btn-dark" ><a href="{{book.link}}" target="_blank">Buy</a></button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

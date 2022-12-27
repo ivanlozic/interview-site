@@ -28,5 +28,5 @@
   </div>
 </div>
 
-<ngb-pagination [collectionSize]="books.length"  [(page)]="params.page"  [pageSize]="params.pageSize" (click)="getAllBooks()" aria-label="Default pagination"></ngb-pagination>
+<ngb-pagination [collectionSize]="11"  [(page)]="params.page"  [pageSize]="params.pageSize"  (pageChange)="onPageChange($event)" aria-label="Default pagination"></ngb-pagination>
 

@@ -23,7 +23,7 @@ export class BooksComponent implements OnInit {
   }
 
   getAllBooks(): void {
-    this.service.getBooks().subscribe({
+    this.service.getBooks(this.params).subscribe({
       next: (books: Book[]) => {
         this.books = books;
         console.log(books)
@@ -32,6 +32,9 @@ export class BooksComponent implements OnInit {
     });
   }
 
-  
+  onPageChange(page:number):void{
+    this.params.page = page
+    this.getAllBooks()
+  }
 
 }

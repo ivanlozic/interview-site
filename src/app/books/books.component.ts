@@ -10,11 +10,16 @@ import { DataService } from '../services/data.service';
 export class BooksComponent implements OnInit {
   books: Book[] = [];
 
+
+  params = {
+    page: 1,
+    pageSize: 4
+  }
+
   constructor(private service: DataService) {}
 
   ngOnInit(): void {
     this.getAllBooks()
-    
   }
 
   getAllBooks(): void {
@@ -26,4 +31,7 @@ export class BooksComponent implements OnInit {
       error: (err: any) => alert(err),
     });
   }
+
+  
+
 }

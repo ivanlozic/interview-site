@@ -11,7 +11,9 @@ import { BooksComponent } from './books/books.component';
 import { CoursesComponent } from './courses/courses.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule,FormsModule } from '@angular/forms';
+import { QuestionsComponent } from './questions/questions.component';
+import { RandomPickerComponent } from './questions/random-picker/random-picker.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContactComponent,
     BooksComponent,
     CoursesComponent,
+    QuestionsComponent,
+    RandomPickerComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,6 +33,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     NgbModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

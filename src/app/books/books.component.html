@@ -27,3 +27,6 @@
     </div>
   </div>
 </div>
+
+<ngb-pagination [collectionSize]="books.length"  [(page)]="params.page"  [pageSize]="params.pageSize" (click)="getAllBooks()" aria-label="Default pagination"></ngb-pagination>
+

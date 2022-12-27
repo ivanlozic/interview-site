@@ -1,0 +1,10 @@
+
+    <button (click)="randomQuestion()" class="btn btn-dark">Pick random Question</button>
+
+
+    <p>{{random}}</p>
+
+
+    <button class="btn btn-dark" (click)="answerShow()">Show Answer</button>
+
+    <p *ngIf="showAnswer" class="answer">{{answer}}</p>

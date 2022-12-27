@@ -1,0 +1,10 @@
+[
+    {"question": "what is HTML?"       , "answer": "html"      },
+    {"question": "what is CSS?"        , "answer": "css"     },
+    {"question": "what is JavaScript?" , "answer": "javascript"     },
+    {"question": "what is Angular?"    , "answer": "angular"     },
+    {"question": "what is React?"      , "answer": "react"       } ,
+    {"question": "what is Git?"        , "answer": "git"      },
+    {"question": "what is SQL?"        , "answer": "sql"     },
+    {"question": "what is Node.js?"    , "answer": "node"      }
+]

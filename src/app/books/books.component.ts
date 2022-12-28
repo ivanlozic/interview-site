@@ -35,6 +35,17 @@ export class BooksComponent implements OnInit {
   onPageChange(page:number):void{
     this.params.page = page
     this.getAllBooks()
+    window.scrollTo(0,0)
   }
+
+
+
+//
+
+isReadMore = true
+
+showText() {
+   this.isReadMore = !this.isReadMore
+}
 
 }

@@ -12,4 +12,8 @@ export class QuestionsComponent implements OnInit {
   ngOnInit(): void {
       
   }
+
+  scrollToTop():void{
+    window.scrollTo(0,0)
+  }
 }

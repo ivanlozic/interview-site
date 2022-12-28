@@ -1,10 +1,12 @@
+<div class="button-1">
+  <button (click)="randomQuestion()" class="btn btn-dark mb-3">
+    Random Question
+  </button>
+  <p>{{ random }}</p>
 
-    <button (click)="randomQuestion()" class="btn btn-dark">Pick random Question</button>
+  <button *ngIf="answerButton" class="mb-5 btn btn-dark btn-answer" (click)="answerShow()">
+    {{ showAnswer ? "Hide Answer" : "Show Answer" }}
+  </button>
+</div>
 
-
-    <p>{{random}}</p>
-
-
-    <button class="btn btn-dark" (click)="answerShow()">Show Answer</button>
-
-    <p *ngIf="showAnswer" class="answer">{{answer}}</p>
+<p *ngIf="showAnswer" class="answer">{{ answer }}</p>

@@ -1,40 +1,25 @@
-nav{
-    padding: 20px;
+nav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  a {
+    color: white;
+  }
+
+  ul {
     display: flex;
     align-items: center;
+    width: 100%;
 
-    a{
-        color: white;
+    li {
+      list-style-type: none;
     }
 
-
-    ul{
-        display: flex;
-        align-items: center;
-        width: 100%;
-        
-
-
-        select{
-            border:1px solid gainsboro;
-            padding: 5px;
-            width: 150px;
-            cursor: pointer;
-
-
-            &:active{
-                border: none;
-            }
-        }
-
-        li{
-            list-style-type: none;
-            white-space:nowrap;
-        }
-
-        .contact{
-            margin-left: 30px;
-            color: white;
-        }
+    .contact {
+      margin-left: 30px;
+      color: white;
     }
+  }
 }

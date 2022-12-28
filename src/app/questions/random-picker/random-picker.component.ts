@@ -13,6 +13,7 @@ export class RandomPickerComponent implements OnInit {
   answer:string = ''
 
   showAnswer:boolean = false
+  answerButton:boolean = false
 
   constructor(private service: DataService) {}
 
@@ -37,6 +38,7 @@ export class RandomPickerComponent implements OnInit {
     this.random = r.question
     this.answer = r.answer
     this.showAnswer = false
+    this.answerButton = true
   }
 
   answerShow(){

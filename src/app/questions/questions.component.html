@@ -97,5 +97,14 @@
 
   <div class="col">
     <router-outlet></router-outlet>
+    <div class="to-top" (click)="scrollToTop()" [ngClass]="{ 'show-scrollTop': windowScrolled }">
+      <button class="btn btn-dark btn-top">Top</button>
+    </div>
   </div>
+
+
 </div>
+
+  
+
+

@@ -7,13 +7,16 @@ import { DataService } from '../services/data.service';
   styleUrls: ['./questions.component.scss'],
 })
 export class QuestionsComponent implements OnInit {
+  windowScrolled = false;
 
-  constructor(){}
+  constructor() {}
   ngOnInit(): void {
-      
+    window.addEventListener('scroll', () => {
+      this.windowScrolled = window.pageYOffset !== 0;
+    });
   }
 
-  scrollToTop():void{
-    window.scrollTo(0,0)
+  scrollToTop(): void {
+    window.scrollTo(0, 0);
   }
 }

@@ -1,17 +1,10 @@
 [
   {
-    "question": "what is HTML?",
+    "question": "What is HTML?",
     "answer": "HTML stands for Hyper Text Markup Language. It is a language of the World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web. HTML makes the text more interactive and dynamic. It can turn text into images, tables, links. HTML pages are saved by adding .html or .html in web page name."
   },
   {
-    "question":"(HTML) What are Attributes and how do you use them?",
+    "question": "What are Attributes and how do you use them?",
     "answer": " Each tag has additional attributes that change the way the tag behaves or is displayed. For example, a <input> tag has a type attribute, which you can use to specify whether it's a text field, checkbox, radio button or one of many more options. Attributes are specified directly after the name of the tag, inside the two angled brackets. They should only ever appear in opening tags or in self-closing tags. But, they can never be in closing tags."
-  },
-  { "question": "what is CSS?", "answer": "css" },
-  { "question": "what is JavaScript?", "answer": "javascript" },
-  { "question": "what is Angular?", "answer": "angular" },
-  { "question": "what is React?", "answer": "react" },
-  { "question": "what is Git?", "answer": "git" },
-  { "question": "what is SQL?", "answer": "sql" },
-  { "question": "what is Node.js?", "answer": "node" }
+  }
 ]

@@ -1,0 +1,11 @@
+[
+    {
+      "question": "What is CSS ?",
+      "answer": "CSS is a styling language that makes HTML web pages more presentable. It allows you to add color, design, and buttons, among other things, to a website."
+    },
+    {
+      "question": "What are the benefits of using CSS?",
+      "answer": " There are multiple benefits to using CSS, including:\nAccessibility\nPage reformatting\nSite-wide consistency\nBandwidth\nSeparation of the bandwidth of presentation"
+    }
+  ]
+  

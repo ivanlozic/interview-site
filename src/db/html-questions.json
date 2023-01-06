@@ -1,10 +1,46 @@
 [
   {
-    "question": "What is HTML?",
+    "question": "1. What is HTML?",
     "answer": "HTML stands for Hyper Text Markup Language. It is a language of the World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web. HTML makes the text more interactive and dynamic. It can turn text into images, tables, links. HTML pages are saved by adding .html or .html in web page name."
   },
   {
-    "question": "What are Attributes and how do you use them?",
+    "question": "2. What are Attributes and how do you use them?",
     "answer": " Each tag has additional attributes that change the way the tag behaves or is displayed. For example, a <input> tag has a type attribute, which you can use to specify whether it's a text field, checkbox, radio button or one of many more options. Attributes are specified directly after the name of the tag, inside the two angled brackets. They should only ever appear in opening tags or in self-closing tags. But, they can never be in closing tags."
+  },
+  {
+    "question": "3. What are tags?",
+    "answer": " Content is placed in between HTML tags in order to properly format it. It makes use of the less than symbol (<) and the greater than symbol (>). A slash symbol is also used as a closing tag. "
+  },
+  {
+    "question": "4. Do all HTML tags come in a pair?",
+    "answer": " No, there are single HTML tags that do not need a closing tag. Examples are the <img> tag and <br> tags."
+  },
+  {
+    "question": "5. How do you create links to sections within the same page?",
+    "answer": " Links can be created using the <a> tag, with referencing through the use of the number (#) symbol. For example, you can have one line as <a href=”#topmost”>BACK TO TOP</a>, which would result in the words “BACK TO TOP” appearing on the webpage and links to a bookmark named topmost. You then create a separate tag command like <a name=”topmost”> somewhere on the top of the same webpage so that the user will be linked to that spot when he clicked on “BACK TO TOP”."
+  },
+  {
+    "question": "6. Does a hyperlink apply to text only?",
+    "answer": "No, hyperlinks can be used in the text as well as images. That means you can convert an image into a link that will allow users to link to another page when clicked. Surround the image within the <a href=” “>…</a> tag combinations."
+  },
+  {
+    "question": "6. Can a single text link point to two different web pages?",
+    "answer": "No. The <a> tag can accept only a single href attribute, and it can point to only a single web page."
+  },
+  {
+    "question": "7. Define Semantic elements in HTML.",
+    "answer": "Semantic elements are HTML elements that represent its meaning to the browser and developer about its contents. For Example - p tag represents a paragraph, a tag represents anchor tag, form tag, table tag, article tag and many more are semantic elements in HTML. Whereas, div tag, span tag, bold tag are not semantic elements."
+  },
+  {
+    "question": "8. What are inline elements and block-level elements in HTML?",
+    "answer": "Block elements are the blocks that take the full available width and always start from a new line. It will stretch itself to the full available width of the available container width. Block-level elements are <div>, <p>, <img>, <section> and many more.Inline elements are the elements that will only take the width that is required to fit into the container."
+  },
+  {
+    "question": "9. Can we change inline elements into block-level elements?",
+    "answer": "Yes, we can change inline elements into block-level elements by adding display equal to block in its CSS tag. Writing it will change the inline elements into block elements and then inline elements will also take the full width of the container."
+  },
+  {
+    "question": "10. Why Meta tags are used in HTML?",
+    "answer": "Meta tags in HTML are used by the developer to tell the browser about the page description, author of the template, character set, keywords and many more.Meta tags are used for search engine optimization to tell the search engine about the page contents."
   }
 ]

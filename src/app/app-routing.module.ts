@@ -16,7 +16,7 @@ import { ReactQuestionsComponent } from './questions/react-questions/react-quest
 import { SqlQuestionsComponent } from './questions/sql-questions/sql-questions.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: 'home', component: HomeComponent},
   {
     path: 'questions',
     component: QuestionsComponent,

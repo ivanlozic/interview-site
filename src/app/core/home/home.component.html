@@ -1,8 +1,37 @@
-<div class="row">
+<div class="row" style="margin: auto">
+  <div class="col-2">
+    <div class="sidebar">
+
+      <h3>More about tips</h3>
+      <ul>
+        <li>
+          <a (click)="navigate(research)"
+            >Research the company and the role beforehand</a
+          >
+        </li>
+        <li>
+          <a (click)="navigate(common)"
+            >Prepare for common interview questions.</a
+          >
+        </li>
+        <li><a (click)="navigate(dress)">Dress appropriately</a></li>
+        <li>
+          <a (click)="navigate(positive)">Be positive and enthusiastic</a>
+        </li>
+        <li><a (click)="navigate(listen)">Listen carefully</a></li>
+        <li><a (click)="navigate(follow)">Follow up after the interview</a></li>
+        <li>
+          <a (click)="navigate(arrive)"
+            >Plan your schedule to arrive 10-15 minutes early</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
   <div class="col main-box">
     <h1>7 Tips How To Pass A Job Interview Successfully</h1>
+
     <div class="row">
-      <div class="col d-flex flex-column align-items-center"></div>
       <div class="slider_box">
         <button (click)="prevButton()">&#60;</button>
 
@@ -79,6 +108,229 @@
         </div>
 
         <button (click)="nextButton()">&#62;</button>
+      </div>
+    </div>
+
+    <div>
+      <div #research class="content">
+        <h3>Research the company and the role beforehand</h3>
+        <p>
+          Researching the company and the role beforehand is an important step
+          in the job search process. It can help you to better understand the
+          company, the role, and how your skills and experiences align with
+          them. This can be especially important if you are applying for a role
+          that is a good fit for your personality and work style.
+          <br /><br />
+          There are several ways to research the company and the role
+          beforehand. One of the first steps is to visit the company's website
+          and read through their "About Us" or "Company History" sections. This
+          will give you a general overview of the company's mission, products or
+          services, and any notable achievements. It can also be helpful to
+          check out the company's social media accounts, such as their LinkedIn
+          page or Twitter feed. This can give you a sense of their brand
+          personality and what they value as an organization.
+          <br /><br />
+          In addition to looking at the company's online presence, it can be
+          helpful to read articles or press releases about the company. This can
+          give you a sense of the company's recent developments and any current
+          events or trends that may be relevant to the role. You can also
+          research the role itself by reading the job description and any
+          additional information provided. Make a list of the responsibilities
+          and qualifications required for the role, and think about how your own
+          skills and experiences align with them.
+          <br /><br />
+          Finally, consider reaching out to current or former employees of the
+          company. LinkedIn can be a good resource for finding and connecting
+          with people who work or have worked at the company. You can also try
+          searching for employee reviews or asking for recommendations from your
+          own network. By taking the time to research the company and the role
+          beforehand, you can be better prepared for the interview and
+          demonstrate your interest and fit for the position.
+        </p>
+      </div>
+
+      <div #common class="content">
+        <h3>Prepare for common interview questions.</h3>
+        <p>
+          Here is a list of common interview questions that you may encounter:
+        </p>
+
+        <ol>
+          <li>"Tell me about yourself."</li>
+          <li>"Why do you want to work for this company?"</li>
+          <li>"What are your strengths?"</li>
+          <li>"What are your weaknesses?"</li>
+          <li>"Why should we hire you?"</li>
+          <li>"Tell me about a time when you faced a challenge at work and how you overcame it."</li>
+          <li>"How do you handle conflict in the workplace?"</li>
+          <li>"Tell me about a time when you made a mistake and how you handled it."</li>
+          <li>"How do you handle a heavy workload?"</li>
+          <li>"What are your long-term career goals?"</li>
+        </ol>
+
+        <p>It's a good idea to practice answering these questions beforehand so that you feel prepared and confident during the interview. Let me know if you have any other questions.</p>
+      </div>
+
+      <div #dress class="content">
+        <h3>Dress appropriately</h3>
+        <p>Here are some tips for dressing appropriately:</p>
+
+        <ol>
+          <li>
+            Research the company's dress code. If you know someone who works at
+            the company, ask them about the company's dress code. If not, try to
+            get a sense of the company culture and what is appropriate to wear.
+          </li>
+          <li>
+            Dress one step up from the company's dress code. If the company has
+            a casual dress code, consider wearing business casual attire. If the
+            company has a formal dress code, consider wearing a suit.
+          </li>
+          <li>
+            Avoid wearing too much perfume or cologne. Strong fragrances can be
+            overpowering and distracting.
+          </li>
+          <li>
+            Make sure your clothes are clean, pressed, and in good repair. Torn
+            or wrinkled clothing can give a poor impression.
+          </li>
+          <li>
+            Dress for the job you want, not the job you have. Even if the
+            company has a casual dress code, it's important to dress
+            professionally for the interview.
+          </li>
+        </ol>
+      </div>
+
+      <div #positive class="content">
+        <h3>Be positive and enthusiastic</h3>
+        <p>
+          It's important to be positive and enthusiastic during a job interview,
+          as it can help you stand out as a candidate and show the interviewer
+          that you are excited about the opportunity. Here are some tips for
+          being positive and enthusiastic during an interview:
+        </p>
+
+        <ol>
+          <li>
+            Show enthusiasm for the company and the position. This can be as
+            simple as saying that you are excited to learn more about the
+            company and the role.
+          </li>
+          <li>
+            Use positive language. Avoid using negative words or phrases, and
+            focus on the strengths and accomplishments that make you a strong
+            candidate.
+          </li>
+          <li>
+            Maintain good body language. Make eye contact, smile, and sit up
+            straight. These small gestures can go a long way in showing that you
+            are engaged and interested in the opportunity.
+          </li>
+          <li>
+            Be proactive in asking questions. Asking relevant, thoughtful
+            questions shows that you are interested in the company and the
+            position, and it also gives you an opportunity to learn more about
+            the role and the company.
+          </li>
+          <li>
+            Thank the interviewer for their time. A simple thank-you can go a
+            long way in showing your appreciation and enthusiasm for the
+            opportunity.
+          </li>
+        </ol>
+      </div>
+
+      <div #listen class="content">
+        <h3>Listen carefully</h3>
+        <p>
+          It's important to listen carefully during an interview, as it shows
+          that you are engaged and interested in the opportunity. Here are some
+          tips for actively listening during an interview: Pay attention to the
+          interviewer's body language and verbal cues. This can help you
+          understand their perspective and what they are looking for in a
+          candidate.Avoid interrupting the interviewer. It's important to let
+          them finish speaking before you respond. Take notes if necessary. This
+          can help you remember important points and also show the interviewer
+          that you are paying attention. Ask clarifying questions. If you are
+          unsure about something, it's okay to ask for clarification. This shows
+          that you are paying attention and want to understand the interviewer's
+          perspective. Avoid multitasking. It's important to give the
+          interviewer your undivided attention.
+        </p>
+      </div>
+
+      <div #follow class="content">
+        <h3>Follow up after the interview</h3>
+        <p>
+          It's always a good idea to follow up after an interview, as it shows
+          your interest in the position and can help keep you top of mind with
+          the hiring manager. Here are some tips for following up after an
+          interview:
+        </p>
+
+        <ol>
+          <li>
+            Send a thank-you email or letter to the interviewer within 24-48
+            hours. In your message, thank the interviewer for their time and
+            reiterate your interest in the position.
+          </li>
+          <li>
+            Keep it brief and professional. Your follow-up message should be no
+            more than a few paragraphs.
+          </li>
+          <li>
+            Mention anything you forgot to mention during the interview. If you
+            think of something that you wish you had mentioned during the
+            interview, you can bring it up in your follow-up message.
+          </li>
+          <li>
+            Include any additional information that the interviewer requested.
+            If the interviewer asked for additional materials, such as writing
+            samples or references, be sure to include these in your follow-up
+            message.
+          </li>
+          <li>
+            If you haven't heard back from the company within a week or two,
+            consider sending a brief follow-up email to inquire about the status
+            of your application.
+          </li>
+        </ol>
+      </div>
+
+      <div #arrive class="content">
+        <h3>Plan your schedule to arrive 10-15 minutes early</h3>
+
+        <ol>
+          <li>
+            Know how long it will take you to get to the interview location.
+            Consider factors such as traffic, public transportation schedules,
+            and the distance you will be traveling.
+          </li>
+          <li>
+            Leave plenty of time for unexpected delays. It's better to arrive
+            early than to risk being late.
+          </li>
+          <li>
+            Consider arriving the day before the interview to familiarize
+            yourself with the location and reduce stress on the day of the
+            interview.
+          </li>
+          <li>
+            Plan your route in advance and consider using a GPS or map to
+            navigate.
+          </li>
+          <li>
+            Allow extra time for parking. If you are driving, make sure to allow
+            enough time to find a parking spot and walk to the interview
+            location.
+          </li>
+        </ol>
+
+        <p>
+          Arriving early to an interview demonstrates professionalism and shows
+          that you are serious about the opportunity.
+        </p>
       </div>
     </div>
   </div>

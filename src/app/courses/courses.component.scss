@@ -1,0 +1,33 @@
+h3{
+    text-align: center;
+    margin-top: 20px;
+   
+
+}
+
+img{
+    width: 900px;
+    height: 700px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    h2{
+        border-bottom: 2px solid black;
+
+    }
+}
+
+.free-code{
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+    img{
+        width: 500px;
+        height: 400px;
+    }
+}

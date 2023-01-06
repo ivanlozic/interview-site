@@ -8,6 +8,8 @@ const booksURL = 'http://localhost:3000/api/books';
 const messageURL = 'http://localhost:3000/api/messages';
 const questionsURL = 'http://localhost:3000/api/allQuestions';
 
+const baseUrl = 'http://localhost:3000/api/'
+
 @Injectable({
   providedIn: 'root',
 })
@@ -41,7 +43,14 @@ export class DataService {
   }
 
 
+
+  //Questions
   getAllQuestions():Observable<any>{
     return this.http.get(questionsURL)
   }
+
+  getHtmlQuestions():Observable<any>{
+    return this.http.get(baseUrl + 'html-questions')
+  }
+
 }

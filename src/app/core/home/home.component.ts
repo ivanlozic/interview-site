@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -38,5 +39,9 @@ export class HomeComponent implements OnInit {
       newIndex = 0;
     }
     this.updateCarousel(newIndex);
+  }
+
+  navigate(el:HTMLElement){
+    el.scrollIntoView({behavior: 'smooth'});
   }
 }

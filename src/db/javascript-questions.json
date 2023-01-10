@@ -1,12 +1,82 @@
-
 [
-    {
-      "question": "What is JavaScript ?",
-      "answer": "JavaScript is a lightweight, interpreted programming language with object-oriented capabilities that allows you to build interactivity into otherwise static HTML pages. The general-purpose core of the language has been embedded in Netscape, Internet Explorer, and other web browsers."
-    },
-    {
-      "question": "What are the data types supported by JavaScript?",
-      "answer": "The data types supported by JavaScript are:\nUndefined\nNull\nBoolean\nString\nSymbol\nNumber\nObject"
-    }
-  ]
-  
+  {
+    "question": "1. What is JavaScript ?",
+    "answer": "JavaScript is a lightweight, interpreted programming language with object-oriented capabilities that allows you to build interactivity into otherwise static HTML pages. The general-purpose core of the language has been embedded in Netscape, Internet Explorer, and other web browsers."
+  },
+  {
+    "question": "2. What are the data types supported by JavaScript?",
+    "answer": "The data types supported by JavaScript are: Undefined, Null,Boolean,String,Symbol,Number,Object"
+  },
+  {
+    "question": "3. Enumerate the differences between Java and JavaScript?",
+    "answer": " Java is a complete programming language. In contrast, JavaScript is a coded program that can be introduced to HTML pages. These two languages are not at all inter-dependent and are designed for different intent. Java is an object-oriented programming (OOPS) or structured programming languages like C++ or C, whereas JavaScript is a client-side scripting language."
+  },
+  {
+    "question": "4. What is 'this' keyword in JavaScript?",
+    "answer": " 'this' keyword refers to the object from where it was called."
+  },
+  {
+    "question": "5. What is the working of timers in JavaScript?",
+    "answer": " Timers are used to execute a piece of code at a set time or repeat the code in a given interval. This is done by using the functions setTimeout, setInterval, and clearInterval.The setTimeout(function, delay) function is used to start a timer that calls a particular function after the mentioned delay. The setInterval(function, delay) function repeatedly executes the given function in the mentioned delay and only halts when canceled. The clearInterval(id) function instructs the timer to stop.Timers are operated within a single thread, and thus events might queue up, waiting to be executed."
+  },
+  {
+    "question": "6.  Is JavaScript a case-sensitive language?",
+    "answer": " Yes, JavaScript is a case sensitive language.  The language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters."
+  },
+  {
+    "question": "7. What are the scopes of a variable in JavaScript?",
+    "answer": " The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.Global Variables - A global variable has global scope which means it is visible everywhere in your JavaScript code. Local Variables - A local variable will be visible only within a function where it is defined. Function parameters are always local to that function."
+  },
+  {
+    "question": "8. What is Callback?",
+    "answer": " A callback is a plain JavaScript function passed to some method as an argument or option. It is a function that is to be executed after another function has finished executing, hence the name 'call back'. In JavaScript, functions are objects. Because of this, functions can take functions as arguments, and can be returned by other functions."
+  },
+  {
+    "question": "9. What is Closure?",
+    "answer": " Closures are created whenever a variable that is defined outside the current scope is accessed from within some inner scope. It gives you access to an outer functio's scope from an inner function. In JavaScript, closures are created every time a function is created. To use a closure, simply define a function inside another function and expose it."
+  },
+  {
+    "question": "10. What are the variable naming conventions in JavaScript?",
+    "answer": " You should not use any of the JavaScript reserved keyword as variable name. For example, break or boolean variable names are not valid. JavaScript variable names should not start with a numeral (0-9). They must begin with a letter or the underscore character. For example, 123name is an invalid variable name but _123name or name123 is a valid one.JavaScript variable names are case sensitive. For example, Test and test are two different variables."
+  },
+  {
+    "question": "11. List out the different ways an HTML element can be accessed in a JavaScript code.",
+    "answer": "(1) getElementById('idname'): Gets an element by its ID name. (2) getElementsByClass('classname'): Gets all the elements that have the given classname. (3) getElementsByTagName('tagname'): Gets all the elements that have the given tag name.(4) querySelector(): This function takes css style selector and returns the first selected element."
+  },
+  {
+    "question": "12. What are the ways to define a variable in JavaScript?",
+    "answer": "The three possible ways of defining a variable in JavaScript are: Var - The JavaScript variables statement is used to declare a variable and, optionally, we can initialize the value of that variable. Example: var a =10; Variable declarations are processed before the execution of the code.Const - The idea of const functions is not allow them to modify the object on which they are called. When a function is declared as const, it can be called on any type of object. Let - It is a signal that the variable may be reassigned, such as a counter in a loop, or a value swap in an algorithm. It also signals that the variable will be used only in the block it's defined in. "
+  },
+  {
+    "question": "13. What is the difference between the operators ‘==‘ & ‘===‘?",
+    "answer": " The main difference between “==” and “===” operator is that formerly compares variable by making type correction e.g. if you compare a number with a string with numeric literal, == allows that, but === doesn’t allow that, because it not only checks the value but also type of two variable, if two variables are not of the same type “===” return false, while “==” return true."
+  },
+  {
+    "question": "14. What is the difference between null & undefined?",
+    "answer": " Undefined means a variable has been declared but has not yet been assigned a value. On the other hand, null is an assignment value. It can be assigned to a variable as a representation of no value. Also, undefined and null are two distinct types: undefined is a type itself (undefined) while null is an object."
+  },
+  {
+    "question": "15. Name some of the JavaScript Frameworks",
+    "answer": " A JavaScript framework is an application framework written in JavaScript. It differs from a JavaScript library in its control flow. There are many JavaScript Frameworks available but some of the most commonly used frameworks are: Angular, React, Vue"
+  },
+  {
+    "question": "16. What is the difference between innerHTML & innerText?",
+    "answer": " innerHTML - It will process an HTML tag if found in a string, innerText - It will not process an HTML tag if found in a string"
+  },
+  {
+    "question": "17. What is NaN in JavaScript?",
+    "answer": " NaN is a short form of Not a Number. Since NaN always compares unequal to any number, including NaN, it is usually used to indicate an error condition for a function that should return a valid number. When a string or something else is being converted into a number and that cannot be done, then we get to see NaN."
+  },
+  {
+    "question": "18. What would be the result of 2+5+”3″?",
+    "answer": " Since 2 and 5 are integers, they will be added numerically. And since 3 is a string, its concatenation will be done. So the result would be 73. The ” ” makes all the difference here and represents 3 as a string and not a number."
+  },
+  {
+    "question": "19.  What are all the looping structures in JavaScript?",
+    "answer": " Following are looping structures in Javascript: For, While, Do-while loops"
+  },
+  {
+    "question": "20. What a pop()method in JavaScript is?",
+    "answer": " The pop() method is similar to the shift() method, but the difference is that the Shift method works at the array's start. The pop() method takes the last element off of the given array and returns it. The array on which it is called is then altered."
+  }
+]

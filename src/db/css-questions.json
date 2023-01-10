@@ -1,11 +1,82 @@
 [
-    {
-      "question": "What is CSS ?",
-      "answer": "CSS is a styling language that makes HTML web pages more presentable. It allows you to add color, design, and buttons, among other things, to a website."
-    },
-    {
-      "question": "What are the benefits of using CSS?",
-      "answer": " There are multiple benefits to using CSS, including:\nAccessibility\nPage reformatting\nSite-wide consistency\nBandwidth\nSeparation of the bandwidth of presentation"
-    }
-  ]
-  
+  {
+    "question": "1. What is CSS ?",
+    "answer": "CSS is a styling language that makes HTML web pages more presentable. It allows you to add color, design, and buttons, among other things, to a website."
+  },
+  {
+    "question": "2. What are the benefits of using CSS?",
+    "answer": " There are multiple benefits to using CSS, including: Accessibility, Page reformatting, Site-wide consistency, Bandwidth, Separation of the bandwidth of presentation"
+  },
+  {
+    "question": "3. What are the advantages of using CSS? ",
+    "answer": "The style of several documents can be controlled from a single site by using them. Multiple HTML elements can have many documents, where classes can be created.To group styles in complex situations, selector and grouping methods are used. "
+  },
+  {
+    "question": "4. What is the difference between the usage of an ID and a Class? ",
+    "answer": "ID - An ID is unique. A particular ID can be only assigned to a single element. IDs are used when specific styling is being tried to be achieved over a single element. Below is a pictorial example of how to use an ID. Class - Just like the word suggests, a class is a collective way of targetting HTML elements for styling. Classes are not unique and multiple elements can have the same class. In fact, multiple classes can also be added to the same element to achieve the desired style and look. Below is an example of the usage of classes. "
+  },
+  {
+    "question": "5. What is a CSS Preprocessor? What are Sass, Less, and Stylus? Why do people use them?",
+    "answer": " A CSS Preprocessor is a tool used to extend the basic functionality of default vanilla CSS through its own scripting language. It helps us to use complex logical syntax like – variables, functions, mixins, code nesting, and inheritance to name a few, supercharging your vanilla CSS.SASS: Sass is the acronym for “Syntactically Awesome Style Sheets”. SASS can be written in two different syntaxes using SASS or SCSS"
+  },
+  {
+    "question": "6. What is VH/VW (viewport height/ viewport width) in CSS?",
+    "answer": " It's a CSS unit used to measure the height and width in percentage with respect to the viewport. It is used mainly in responsive design techniques. The measure VH is equal to 1/100 of the height of the viewport. If the height of the browser is 1000px, 1vh is equal to 10px. Similarly, if the width is 1000px, then 1 vw is equal to 10px"
+  },
+  {
+    "question": "7. What is responsive web design?",
+    "answer": " Responsive design is an approach to web page creation that makes use of flexible layouts, flexible images and cascading style sheet media queries. The goal of responsive design is to build web pages that detect the visitor's screen size and orientation and change the layout accordingly."
+  },
+  {
+    "question": "8. What is the difference between {visibility: hidden} and {display: none}? ",
+    "answer": " display:none means that the tag in question will not appear on the page at all (although you can still interact with it through the DOM). There will be no space allocated for it between the other tags.visibility:hidden means that unlike display:none, the tag is not visible, but space is allocated for it on the page. The tag is rendered, it just isn't seen on the page."
+  },
+  {
+    "question": "9. What is the use of box-shadow in CSS?",
+    "answer": " The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box-shadow is described by X and Y offsets relative to the element, color, blur and spread radii. Below are a few implementations of box-shadow"
+  },
+  {
+    "question": "10. How would you style an image or element to have rounded corners?",
+    "answer": " Use the border-radius property to add rounded corners to an image. 50% will make the image circular."
+  },
+  {
+    "question": "11. What is CSS flexbox?",
+    "answer": " The flexbox layout officially called CSS flexible box layout module is a new layout module in CSS3. It is made to improve the items align, directions and order in the container even when they are with dynamic, or even unknown size. The prime characteristic of the flex container is the ability to modify the width or height of its children to fill the available space in the best possible way on different screen sizes.Many designers and developers find this flexbox layout easier to use, as the positioning of the elements is simpler thus more complex layouts can be achieved with less code, leading to a simpler development process. Flexbox layout algorithm is direction based unlike the block or inline layout which are vertically and horizontally based. This flexbox layout should be used for small application components, while the new CSS Grid Layout Module is emerging to handle the large scale layouts."
+  },
+  {
+    "question": "12. Explain CSS position property?",
+    "answer": " Absolute: To place an element exactly where you want to place it. absolute position is actually set relative to the element's parent. if no parent is available then the relative place to the page itself (it will default all the way back up to the element).Relative: 'Relative to itself'. Setting position: relative; on an element and no other positioning attributes, it will no effect on its positioning. It allows the use of z-index on the element and it limits the scope of absolutely positioned child elements. Any child element will be absolutely positioned within that block.Fixed: The element is positioned relative to the viewport or the browser window itself. viewport doesn't change if you scroll and hence the fixed element will stay right in the same position. Static: Static default for every single page element. The only reason you would ever set an element to position: static is to forcefully remove some positioning that got applied to an element outside of your control.Sticky: Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned."
+  },
+  {
+    "question": "13.  What is the grid system?",
+    "answer": " CSS Grid Layout is the most powerful layout system available in CSS. It is said to be a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system."
+  },
+  {
+    "question": "14. What does !important mean in CSS? ",
+    "answer": " The style is having the important will have the highest precedence and it overrides the cascaded property."
+  },
+  {
+    "question": "15. What are gradients in CSS?",
+    "answer": " The gradient is a property that allows for smooth transitioning between two or more specified colors. There are two types of gradients in CSS: Linear Gradient, Radial Gradient"
+  },
+  {
+    "question": "16. Define z-index ",
+    "answer": " Z-index is used to specify the stack order of elements that overlap each other. Its default value is zero and can take both negative and positive values. A higher z-index value is stacked above the lower index element. It takes the following values- auto, number, initial, and inherit. "
+  },
+  {
+    "question": "17. How do you specify units in the CSS? What are the different ways to do it?",
+    "answer": "There are mainly four different units in the CSS that are px, em, pt, and percentage (%).1. Px (Pixel) is used for fine-grained control and alignment and not cascade. To get it sharp, we can use 1px or multiple of px.2. Em is used to maintain relative size and responsive fonts. 1em = 16px having also the same font size. It is advisable to set the font size to 10px in common practice. 3. Pt (point) is a fixed-size unit that is used in print. 1pt = 1/72 inch. 4. Percentage (%) is used to set the font size with respect to the font size of the body. Thus, it is necessary to set the reasonable font size of the body."
+  },
+  {
+    "question": "18.  What property is used for changing the font face?",
+    "answer": " The font-family property is used for changing the font face that is applied to the element in the DOM."
+  },
+  {
+    "question": "19. How is the border-box different from the content box?",
+    "answer": " Border-box consists of properties such as content, padding, and the border with respect to height and width. However, Content-box is a default value property used for the box-sizing as well as it helps to add border and padding to give proper height and width to the box without having a border and padding properties."
+  },
+  {
+    "question": "20. How is opacity specified in CSS3?",
+    "answer": " Opacity is the measure of content transparency. It is measured in the range from 0 to 1. Value 1 means the content is completely opaque. It is not supportable in the internet browser. Also, the 60% of opacity is applicable in the div section where we need to apply the filter property (polyfill) to make it completely opaque."
+  }
+]

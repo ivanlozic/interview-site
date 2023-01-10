@@ -1,0 +1,86 @@
+[
+  {
+    "question": "1. What is Angular?",
+    "answer": "Angular is a component-based framework for building scalable web applications, a collection of well-integrated libraries that cover a wide variety of features, including routing, forms management, client-server communication, and more, a suite of developer tools to help you develop, build, test, and update your code"
+  },
+  {
+    "question": "2. What is TypeScript?",
+    "answer": " TypeScript is a superset of JavaScript that offers excellent consistency. It is highly recommended, as it provides some syntactic sugar and makes the code base more comfortable to understand and maintain. Ultimately, TypeScript code compiles down to JavaScript that can run efficiently in any environment. "
+  },
+  {
+    "question": "3. What are Single Page Applications (SPA)?",
+    "answer": " Single-page applications are web applications that load once with new features just being mere additions to the user interface. It does not load new HTML pages to display the new page's content, instead generated dynamically. This is made possible through JavaScript's ability to manipulate the DOM elements on the existing page itself. A SPA approach is faster, thus providing a seamless user experience."
+  },
+  {
+    "question": "4. What are Templates in Angular?",
+    "answer": " Angular Templates are written with HTML that contains Angular-specific elements and attributes. In combination with the model and controller's information, these templates are further rendered to provide a dynamic view to the user."
+  },
+  {
+    "question": "4. What are Components in Angular?",
+    "answer": " Components are the basic building blocks of the user interface in an Angular application. Every component is associated with a template and is a subset of directives. An Angular application typically consists of a root component, which is the AppComponent, that then branches out into other components creating a hierarchy."
+  },
+  {
+    "question": "5. What are Pipes in Angular? ",
+    "answer": " Pipes are simple functions designed to accept an input value, process, and return as an output, a transformed value in a more technical understanding. Angular supports several built-in pipes. However, you can also create custom pipes that cater to your needs. Some key features include: Pipes are defined using the pipe “|” symbol.  Pipes can be chained with other pipes. Pipes can be provided with arguments by using the colon (:) sign."
+  },
+  {
+    "question": "6. What is an ngModule?",
+    "answer": " NgModules are containers that reserve a block of code to an application domain or a workflow. @NgModule takes a metadata object that generally describes the way to compile the template of a component and to generate an injector at runtime. In addition, it identifies the module's components, directives, and pipes, making some of them public, through the export property so that external components can use them."
+  },
+  {
+    "question": "7. What is String Interpolation in Angular?",
+    "answer": " String Interpolation is a one-way data-binding technique that outputs the data from TypeScript code to HTML view. It is denoted using double curly braces. This template expression helps display the data from the component to the view. {{ data }}"
+  },
+  {
+    "question": "8. What are Services in Angular? ",
+    "answer": " Angular Services perform tasks that are used by multiple components. These tasks could be data and image fetching, network connections, and database management among others. They perform all the operational tasks for the components and avoid rewriting of code. A service can be written once and injected into all the components that use that service. "
+  },
+  {
+    "question": "9. What are Promises and Observables in Angular? ",
+    "answer": " While both the concepts deal with Asynchronous events in Angular, Promises handle one such event at a time while observables handle a sequence of events over some time. Promises - They emit a single value at a time. They execute immediately after creation and are not cancellable. They are Push errors to the child promises. Observables - They are only executed when subscribed to them using the subscribe() method. They emit multiple values over a period of time. They help perform operations like forEach, filter, and retry, among others. They deliver errors to the subscribers. When the unsubscribe() method is called, the listener stops receiving further values."
+  },
+  {
+    "question": "10. What is ngOnInit? How is it defined? ",
+    "answer": " ngOnInit is a lifecycle hook and a callback method that is run by Angular to indicate that a component has been created. It takes no parameters and returns a void type."
+  },
+  {
+    "question": "11. How to use ngFor in a tag? ",
+    "answer": " The ngFor directive is used to build lists and tables in the HTML templates. In simple terms, this directive is used to iterate over an array or an object and create a template for each element. "
+  },
+  {
+    "question": "12. What are Template forms? ",
+    "answer": " Template-driven forms use two-way data binding to update the data model in the component as changes are made in the template and vice versa."
+  },
+  {
+    "question": "13. What are router links? ",
+    "answer": " RouterLink is an anchor tag directive that gives the router authority over those elements. Because the navigation routes are set."
+  },
+  {
+    "question": "14. What are Reactive Forms ",
+    "answer": " Reactive forms provide a model-driven approach to handling form inputs whose values change over time. This guide shows you how to create and update a basic form control, progress to using multiple controls in a group, validate form values, and create dynamic forms where you can add or remove controls at run time.Reactive forms use an explicit and immutable approach to managing the state of a form at a given point in time. Each change to the form state returns a new state, which maintains the integrity of the model between changes. Reactive forms are built around observable streams, where form inputs and values are provided as streams of input values, which can be accessed synchronously."
+  },
+  {
+    "question": "15.  What is the purpose of the ngIf directive?",
+    "answer": " The purpose of the ngIf directive is to remove or recreate a part of DOM tree in alignment to an expression. If the ngIf directive finds that the expression is evaluating to be false, the element is removed from the tree, else a matching element is inserted into the DOM tree."
+  },
+  {
+    "question": "16. What are modules in Angular?",
+    "answer": " A module is a logical boundary of our application. It is used to encapsulate code dealing with a specific aspect of the application, such as routing, HTTP, validation, etc. The main reason why modules are used is to enhance application composability. For example, if we wish to implement validation logic using different libraries, then for the one we have already implemented, we can create a new validation module and replace the current one with the new one, and our application would work just the same. In Angular, we create a module using the NgModule decorator."
+  },
+  {
+    "question": "17. What is DOM?",
+    "answer": " The full form of DOM is Document Object Model, and it is responsible for representing the content of a web page and changes in the architecture of an application. Here, all the objects are organized in the form of a tree, and the document can easily be modified, manipulated, and accessed only with the help of APIs."
+  },
+  {
+    "question": "18. What is Angular Router?",
+    "answer": " Routing in a single-page frontend application is the task of responding to the changes in the URL made by adding and removing content from the application. This is a complicated task as we first need to intercept a request that changes the browser's URL as we do not wish for the browser to reload. Then, we need to determine which content to remove and which content to add, and finally, we have to change the browser's URL as well to show the user the current page they are on."
+  },
+  {
+    "question": "19. Explain Angular CLI.",
+    "answer": " Angular CLI is otherwise known as Angular command-line interface. Angular supports CLI tools that give professionals the ability to use them to add components, deploy them instantly, and perform testing and many such functions."
+  },
+  {
+    "question": "20. What is HttpClient, and what are its benefits?",
+    "answer": " HttpClient is an Angular module used for communicating with a backend service via the HTTP protocol. Usually, in frontend applications, for sending requests, we use the fetch API. However, the fetch API uses promises. Promises are useful, but they do not offer the rich functionalities that observables offer. This is why we use HttpClient in Angular as it returns the data as an observable, which we can subscribe to, unsubscribe to, and perform several operations on using operators. Observables can be converted to promises, and an observable can be created from a promise as well."
+  }
+]

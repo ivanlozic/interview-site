@@ -42,5 +42,52 @@
   {
     "question": "10. Why Meta tags are used in HTML?",
     "answer": "Meta tags in HTML are used by the developer to tell the browser about the page description, author of the template, character set, keywords and many more.Meta tags are used for search engine optimization to tell the search engine about the page contents."
+  },
+  {
+    "question": "11. How to insert an image in HTML?",
+    "answer": "<img> tag is used to add an image in a web page.\nImages are not inserted into a web page basically they are linked to web pages. The <img> tag helps to create a holding space for the referenced image.\nThe <img> tag is normally empty, it has attributes only, and does not have a closing tag.\n<img> tag has two required parameters:\nsrc - The path to the image\nalt - An alternate text for the image"
+  },
+  {
+    "question": "12. How to link CSS to HTML?",
+    "answer": "Before start with how to link CSS with HTML,\nLet’s have a look at: What is CSS?\nFull form of CSS stands for Cascading Style Sheets (CSS) which is used to format the layout of a webpage.\nWith the help of CSS, someone can control the color, font, the size of text, the spacing between elements and also how elements are positioned and laid out, what background images or background colors to be used, different displays for different devices and screen sizes, and so many more as well."
+  },
+
+  {
+    "question": "13. How to create a table in HTML?",
+    "answer": "HTML tables help web developers to set the data into rows and columns.\nThe <table> tag is there in the HTML table.\nEach table row can be defined with a <tr> tag.\nEach header can be defined with a <th> tag.\nEach data or the cell is defined with a <td> tag.\nIf your text is in the  <th> elements then they will be bold and centered.\nIf your text is in the <td> elements then they will be regular and left-aligned."
+  },
+  {
+    "question": "14. What is dom in HTML?",
+    "answer": "DOM stands for Document Object Model. When a web page is getting loaded that time the browser creates a Document Object Model of the page and it is constructed as a tree of Objects. HTML DOM is basically an Object Model for HTML. \nHTML DOM describes:\nThe HTML elements as objects\nProperties of all HTML elements\nMethods of all HTML elements\nEvents of all HTML elements"
+  },
+
+  {
+    "question": "15. How to run HTML program?",
+    "answer": "- Write Some HTML code into some editor\n- Save the HTML Page. Save the file on your computer.\n- View the HTML Page in Your Browser"
+  },
+
+  {
+    "question": "16. What is HTML used for?",
+    "answer": "HTML is used to make static web pages and HTML stands for markup language."
+  },
+
+  {
+    "question": "17. What tag is used to create button in HTML?",
+    "answer": "The HTML <button> tag is used to create a button in a website."
+  },
+
+  {
+    "question": "18. Which is better: HTML or HTML5?",
+    "answer": "HTML5 is the newest version of HTML and it is better than HTML because it includes new features like audio and video elements, new semantic elements, and support for local storage."
+  },
+
+  {
+    "question": "19. Which types of heading are found in HTML?",
+    "answer": "There are 6 types of headings that can be found in HTML which are numbered <h1> to <h6> from largest to smallest. Headings are used in the following way."
+  },
+
+  {
+    "question": "20. What is span in HTML?",
+    "answer": "The HTML <span> element stands for a generic inline container for phrasing content, that does not inherently represent anything. It can also be used to group elements for styling purposes like using the class or id attributes, or because they share attribute values, such as lang."
   }
 ]

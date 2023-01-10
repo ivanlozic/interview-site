@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is React?",
+    "answer": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality."
+  },
+  {
+    "question": "2. What are the features of React? ",
+    "answer": " Major features of React are listed below:1. It uses the virtual DOM instead of the real DOM.2. It uses server-side rendering.3. It follows uni-directional data flow or data binding."
+  },
+  {
+    "question": "3. What is JSX?",
+    "answer": " JSX is a shorthand for JavaScript XML. This is a type of file used by React which utilizes the expressiveness of JavaScript along with HTML like template syntax. This makes the HTML file really easy to understand. "
+  },
+  {
+    "question": "4. What do you understand by Virtual DOM? Explain its works.",
+    "answer": " A virtual DOM is a lightweight JavaScript object which originally is just a copy of the real DOM. It is a node tree that lists the elements, their attributes and content as Objects and their properties. React's render function creates a node tree out of the React components. It then updates this tree in response to the mutations in the data model which is caused by various actions done by the user or by the system."
+  },
+  {
+    "question": "5. In React, everything is a component.",
+    "answer": " Components are the building blocks of a React application’s UI. These components split up the entire UI into small independent and reusable pieces. Then it renders each of these components independent of each other without affecting the rest of the UI."
+  },
+  {
+    "question": "6. What is Props?",
+    "answer": " Props is the shorthand for Properties in React. They are read-only components which must be kept pure i.e. immutable. They are always passed down from the parent to the child components throughout the application. A child component can never send a prop back to the parent component. This help in maintaining the unidirectional data flow and are generally used to render the dynamically generated data."
+  },
+  {
+    "question": "7. What is arrow function in React? How is it used?",
+    "answer": " Arrow functions are more of brief syntax for writing the function expression. They are also called ‘fat arrow‘ (=>) the functions. These functions allow to bind the context of the components properly since in ES6 auto binding is not available by default. Arrow functions are mostly useful while working with the higher order functions."
+  },
+  {
+    "question": "8. What is an event in React?",
+    "answer": "In React, events are the triggered reactions to specific actions like mouse hover, mouse click, key press, etc. Handling these events are similar to handling events in DOM elements. But there are some syntactical differences like: 1. Events are named using camel case instead of just using the lowercase. 2. Events are passed as functions instead of strings. The event argument contains a set of properties, which are specific to an event. Each event type contains its own properties and behavior which can be accessed via its event handler only. "
+  },
+  {
+    "question": "9. How are forms created in React?",
+    "answer": " React forms are similar to HTML forms. But in React, the state is contained in the state property of the component and is only updated via setState(). Thus the elements can't directly update their state and their submission is handled by a JavaScript function. This function has full access to the data that is entered by the user into a form."
+  },
+  {
+    "question": "10. Explain React state",
+    "answer": " Every component in react has a built-in state object, which contains all the property values that belong to that component.In other words, the state object controls the behaviour of a component. Any change in the property values of the state object leads to the re-rendering of the component. "
+  },
+  {
+    "question": "11. What is React Hooks?",
+    "answer": " React Hooks are the built-in functions that permit developers for using the state and lifecycle methods within React components. These are newly added features made available in React 16.8 version. Each lifecycle of a component is having 3 phases which include mount, unmount, and update. Along with that, components have properties and states. Hooks will allow using these methods by developers for improving the reuse of code with higher flexibility navigating the component tree."
+  },
+  {
+    "question": "12. Explain about basic types of Hooks in React",
+    "answer": "Basic Hooks: 1. useState(): This functional component is used to set and retrieve the state. 2. useEffect(): It enables for performing the side effects in the functional components. 3. useContext(): It is used for creating common data that is to be accessed by the components hierarchy without having to pass the props down to each level. "
+  },
+  {
+    "question": "13. What is React Router? ",
+    "answer": " React Router refers to the standard library used for routing in React. It permits us for building a single-page web application in React with navigation without even refreshing the page when the user navigates. It also allows to change the browser URL and will keep the user interface in sync with the URL. React Router will make use of the component structure for calling the components, using which appropriate information can be shown. Since React is a component-based framework, it's not necessary to include and use this package. Any other compatible routing library would also work with React."
+  },
+  {
+    "question": "14. How does rendering work in React?",
+    "answer": " Rendering is an important aspect of React as every single component must be rendered. This is done using the render() function. Once the function is called, it returns an element that represents a DOM component. It is also possible to render more than one HTML element at a time by enclosing the HTML tags and passing them through the render function."
+  },
+  {
+    "question": "15. What is the meaning of create-react-app in React?",
+    "answer": " The create-react app in React is a simple command-line interface (CLI) that is used in the creation of React applications, which have no build configuration. All tools are pre-configured when using the CLI, and this allows users to focus on the code more than on dependencies to develop the application."
+  },
+  {
+    "question": "16. What is the meaning of Redux?",
+    "answer": " Redux is used to store the state of the application in a single entity. This simple entity is usually a JavaScript object. Changing states can be done by pushing out actions from the application and writing corresponding objects for them that are used to modify the states."
+  },
+  {
+    "question": "17. What are refs in React?",
+    "answer": " 'Refs' is short for references in React. Refs are used to store a reference to a single React element or a React component. This is later returned using the render function."
+  },
+  {
+    "question": "18. Differentiate between a controlled component and an uncontrolled component in React.",
+    "answer": " A controlled component, as the name suggests, is a component over which React has complete control. It is the singular point of data for the forms. An uncontrolled component is one where the form data gets handled by DOM and not the React component. This is usually done using refs in React."
+  },
+  {
+    "question": "19. What is the use of the second argument that is passed to setState? Is it optional?",
+    "answer": " When setState is finished, a callback function is invoked, and the components get re-rendered in React. Yes, it is an optional argument. Since setState is asynchronous, it takes in another callback function. However, in programming practice, it is always good to use another life cycle method instead of this."
+  },
+  {
+    "question": "20.  What is the StrictMode component used in React?",
+    "answer": " The StrictMode component when used would benefit users immensely while creating new codebases to understand the components being used However, it can fit well in debugging as well because it will help solve the problem faster when it is wrapped with other components, which could be causing the problem. "
+  }
+]

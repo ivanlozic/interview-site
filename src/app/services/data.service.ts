@@ -53,4 +53,26 @@ export class DataService {
     return this.http.get(baseUrl + 'html-questions')
   }
 
+  getCSSQuestions():Observable<any>{
+    return this.http.get(baseUrl + 'css-questions')
+  }
+
+  getJavaScriptQuestions():Observable<any>{
+    return this.http.get(baseUrl + 'javascript-questions')
+  }
+
+  
+  getReactQuestions():Observable<any>{
+    return this.http.get(baseUrl + 'react-questions')
+  }
+
+  getAngularQuestions():Observable<any>{
+    return this.http.get(baseUrl + 'angular-questions')
+  }
+
+  getGitQuestions():Observable<any>{
+    return this.http.get(baseUrl + 'git-questions')
+  }
+
+
 }

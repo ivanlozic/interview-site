@@ -18,16 +18,6 @@ img {
   }
 }
 
-.free-code {
-  display: flex;
-  width: 100%;
-  margin-left: 20px;
-  img {
-    width: 500px;
-    height: 400px;
-  }
-}
-
 .udemy {
   border-bottom: 1px solid black;
 }
@@ -37,12 +27,41 @@ img {
   flex-wrap: wrap;
   border-bottom: 1px solid black;
 
-  div{
+  div {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin: 20px 0;
 
+    p {
+      margin: 0 10px;
+    }
+  }
+}
 
+h5 {
+  text-align: center;
+}
+
+.free-code {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  p {
+    margin: 20px 0;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    img {
+      width: 500px;
+      height: 400px;
+    }
   }
 }

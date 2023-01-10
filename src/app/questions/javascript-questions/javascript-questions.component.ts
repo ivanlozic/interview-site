@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-javascript-questions',
@@ -6,10 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./javascript-questions.component.scss']
 })
 export class JavascriptQuestionsComponent implements OnInit {
+  JavaScriptQuestions:any[] = []
 
-  constructor() { }
+  constructor(private service:DataService) { }
 
   ngOnInit(): void {
+    this.getJavaScriptQuestions()
   }
 
+  getJavaScriptQuestions(){
+    this.service.getJavaScriptQuestions().subscribe({
+      next:(questions:[]) => {
+        this.JavaScriptQuestions = questions
+      }
+    })
+  }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-git-questions',
@@ -6,10 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./git-questions.component.scss']
 })
 export class GitQuestionsComponent implements OnInit {
+  gitQuestions:any[] = []
 
-  constructor() { }
+  constructor(private service:DataService) { }
 
   ngOnInit(): void {
+    this.getGitQuestions()
   }
 
+  getGitQuestions(){
+    this.service.getGitQuestions().subscribe({
+      next:(questions:[]) => {
+        this.gitQuestions = questions
+      }
+    })
+  }
 }

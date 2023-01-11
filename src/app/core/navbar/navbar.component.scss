@@ -1,21 +1,46 @@
 nav {
   padding: 20px;
   display: flex;
-  align-items: center;
   width: 100%;
+
+  h5 {
+    color: white;
+  }
 
   a {
     color: white;
+    white-space: nowrap;
   }
 
   ul {
     display: flex;
-    align-items: center;
-    width: 100%;
 
     li {
       list-style-type: none;
+      color: white;
+    }
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  nav {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h5 {
+      margin-bottom: 15px;
     }
 
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+   
+      li{
+        margin-right: 30px;
+      }
+    }
   }
 }

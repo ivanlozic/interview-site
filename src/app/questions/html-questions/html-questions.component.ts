@@ -4,23 +4,22 @@ import { DataService } from 'src/app/services/data.service';
 @Component({
   selector: 'app-html-questions',
   templateUrl: './html-questions.component.html',
-  styleUrls: ['./html-questions.component.scss']
+  styleUrls: ['./html-questions.component.scss'],
 })
 export class HtmlQuestionsComponent implements OnInit {
-  htmlQuestions:any[] = []
+  htmlQuestions: any[] = [];
 
-  constructor(private service:DataService) { }
+  constructor(private service: DataService) {}
 
   ngOnInit(): void {
-    this.getHtmlQuestions()
+    this.getHtmlQuestions();
   }
 
-  getHtmlQuestions(){
+  getHtmlQuestions() {
     this.service.getHtmlQuestions().subscribe({
-      next:(questions:[]) => {
-        this.htmlQuestions = questions
-      }
-    })
+      next: (questions: []) => {
+        this.htmlQuestions = questions;
+      },
+    });
   }
-
 }

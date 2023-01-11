@@ -41,7 +41,7 @@ export class HomeComponent implements OnInit {
     this.updateCarousel(newIndex);
   }
 
-  navigate(el:HTMLElement){
-    el.scrollIntoView({behavior: 'smooth'});
+  navigate(el: HTMLElement) {
+    el.scrollIntoView({ behavior: 'smooth' });
   }
 }

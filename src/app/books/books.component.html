@@ -1,4 +1,4 @@
-<div class="box row m-4 " style="margin: auto">
+<div class="box row m-4" style="margin: auto">
   <div class="col-6 mb-5" *ngFor="let book of books">
     <div class="row">
       <div class="col-5">
@@ -30,7 +30,8 @@
   </div>
 </div>
 
-<ngb-pagination class="d-flex justify-content-center mt-4 "
+<ngb-pagination
+  class="d-flex justify-content-center mt-4"
   [collectionSize]="11"
   [(page)]="params.page"
   [pageSize]="params.pageSize"

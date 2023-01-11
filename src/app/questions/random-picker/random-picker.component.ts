@@ -4,16 +4,16 @@ import { DataService } from 'src/app/services/data.service';
 @Component({
   selector: 'app-random-picker',
   templateUrl: './random-picker.component.html',
-  styleUrls: ['./random-picker.component.scss']
+  styleUrls: ['./random-picker.component.scss'],
 })
 export class RandomPickerComponent implements OnInit {
   questions: [] = [];
 
-  random:string = '';
-  answer:string = ''
+  random: string = '';
+  answer: string = '';
 
-  showAnswer:boolean = false
-  answerButton:boolean = false
+  showAnswer: boolean = false;
+  answerButton: boolean = false;
 
   constructor(private service: DataService) {}
 
@@ -31,17 +31,17 @@ export class RandomPickerComponent implements OnInit {
   }
 
   randomQuestion() {
+    let r: any =
+      this.questions[Math.floor(Math.random() * this.questions.length)];
+    console.log(r);
 
-    let r:any = this.questions[Math.floor(Math.random() * this.questions.length)]
-    console.log(r)
-
-    this.random = r.question
-    this.answer = r.answer
-    this.showAnswer = false
-    this.answerButton = true
+    this.random = r.question;
+    this.answer = r.answer;
+    this.showAnswer = false;
+    this.answerButton = true;
   }
 
-  answerShow(){
-    this.showAnswer = !this.showAnswer
+  answerShow() {
+    this.showAnswer = !this.showAnswer;
   }
 }

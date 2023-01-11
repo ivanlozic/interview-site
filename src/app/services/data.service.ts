@@ -8,7 +8,7 @@ const booksURL = 'http://localhost:3000/api/books';
 const messageURL = 'http://localhost:3000/api/messages';
 const questionsURL = 'http://localhost:3000/api/allQuestions';
 
-const baseUrl = 'http://localhost:3000/api/'
+const baseUrl = 'http://localhost:3000/api/';
 
 @Injectable({
   providedIn: 'root',
@@ -16,63 +16,58 @@ const baseUrl = 'http://localhost:3000/api/'
 export class DataService {
   constructor(private http: HttpClient) {}
 
-  getBooks(params?:any): Observable<Book[]> {
+  getBooks(params?: any): Observable<Book[]> {
+    let options = {};
 
-    let options = {}
-
-    if(params) {
+    if (params) {
       options = {
         params: new HttpParams()
-        .set('page', params.page || '')
-        .set('pageSize', params.pageSize || '')
-      }
+          .set('page', params.page || '')
+          .set('pageSize', params.pageSize || ''),
+      };
     }
 
-    return this.http.get(booksURL,options).pipe(
+    return this.http.get(booksURL, options).pipe(
       map((data: any) => {
         return data.map((elem: any) => new Book(elem));
       })
     );
   }
 
-
-  postMessage(content:Message):Observable<Message>{
-    return this.http.post(messageURL,content).pipe(map((elem:any)=> {
-      return new Message(elem)
-    }))
+  postMessage(content: Message): Observable<Message> {
+    return this.http.post(messageURL, content).pipe(
+      map((elem: any) => {
+        return new Message(elem);
+      })
+    );
   }
-
-
 
   //Questions
-  getAllQuestions():Observable<any>{
-    return this.http.get(questionsURL)
+  getAllQuestions(): Observable<any> {
+    return this.http.get(questionsURL);
   }
 
-  getHtmlQuestions():Observable<any>{
-    return this.http.get(baseUrl + 'html-questions')
+  getHtmlQuestions(): Observable<any> {
+    return this.http.get(baseUrl + 'html-questions');
   }
 
-  getCSSQuestions():Observable<any>{
-    return this.http.get(baseUrl + 'css-questions')
+  getCSSQuestions(): Observable<any> {
+    return this.http.get(baseUrl + 'css-questions');
   }
 
-  getJavaScriptQuestions():Observable<any>{
-    return this.http.get(baseUrl + 'javascript-questions')
+  getJavaScriptQuestions(): Observable<any> {
+    return this.http.get(baseUrl + 'javascript-questions');
   }
 
-  
-  getReactQuestions():Observable<any>{
-    return this.http.get(baseUrl + 'react-questions')
+  getReactQuestions(): Observable<any> {
+    return this.http.get(baseUrl + 'react-questions');
   }
 
-  getAngularQuestions():Observable<any>{
-    return this.http.get(baseUrl + 'angular-questions')
+  getAngularQuestions(): Observable<any> {
+    return this.http.get(baseUrl + 'angular-questions');
   }
 
-  getGitQuestions():Observable<any>{
-    return this.http.get(baseUrl + 'git-questions')
+  getGitQuestions(): Observable<any> {
+    return this.http.get(baseUrl + 'git-questions');
   }
-
-
 }

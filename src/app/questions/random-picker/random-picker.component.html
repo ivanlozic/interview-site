@@ -4,7 +4,11 @@
   </button>
   <p>{{ random }}</p>
 
-  <button *ngIf="answerButton" class="mb-5 btn btn-dark btn-answer" (click)="answerShow()">
+  <button
+    *ngIf="answerButton"
+    class="mb-5 btn btn-dark btn-answer"
+    (click)="answerShow()"
+  >
     {{ showAnswer ? "Hide Answer" : "Show Answer" }}
   </button>
 </div>

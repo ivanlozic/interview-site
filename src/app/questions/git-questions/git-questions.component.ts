@@ -4,22 +4,22 @@ import { DataService } from 'src/app/services/data.service';
 @Component({
   selector: 'app-git-questions',
   templateUrl: './git-questions.component.html',
-  styleUrls: ['./git-questions.component.scss']
+  styleUrls: ['./git-questions.component.scss'],
 })
 export class GitQuestionsComponent implements OnInit {
-  gitQuestions:any[] = []
+  gitQuestions: any[] = [];
 
-  constructor(private service:DataService) { }
+  constructor(private service: DataService) {}
 
   ngOnInit(): void {
-    this.getGitQuestions()
+    this.getGitQuestions();
   }
 
-  getGitQuestions(){
+  getGitQuestions() {
     this.service.getGitQuestions().subscribe({
-      next:(questions:[]) => {
-        this.gitQuestions = questions
-      }
-    })
+      next: (questions: []) => {
+        this.gitQuestions = questions;
+      },
+    });
   }
 }

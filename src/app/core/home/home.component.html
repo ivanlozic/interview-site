@@ -1,7 +1,6 @@
 <div class="row" style="margin: auto">
-  <div class="col-2">
+  <div class="col-lg-2">
     <div class="sidebar">
-
       <h3>More about tips</h3>
       <ul>
         <li>
@@ -28,87 +27,90 @@
       </ul>
     </div>
   </div>
-  <div class="col main-box">
+  <div class="col-lg col-sm-10	 main-box">
     <h1>7 Tips How To Pass A Job Interview Successfully</h1>
 
     <div class="row">
-      <div class="slider_box">
-        <button (click)="prevButton()">&#60;</button>
-
-        <div class="slider">
-          <div class="slide active">
-            <img src="assets/images/1.jpg" alt="" />
-            <p>
-              <strong>Research the company and the role beforehand.</strong>
-              This will help you understand the company's mission and values, as
-              well as the specific requirements and expectations for the role.
-            </p>
+      <div class="col-lg">
+        <div class="slider_box">
+          <button (click)="prevButton()">&#60;</button>
+  
+          <div class="slider">
+            <div class="slide active">
+              <img src="assets/images/1.jpg" alt="" />
+              <p>
+                <strong>Research the company and the role beforehand.</strong>
+                This will help you understand the company's mission and values, as
+                well as the specific requirements and expectations for the role.
+              </p>
+            </div>
+  
+            <div class="slide">
+              <img src="assets/images/2.jpg" alt="" />
+              <p>
+                <strong>Prepare for common interview questions.</strong> Some
+                common questions include: "Tell me about yourself," "Why do you
+                want to work for this company," and "What are your strengths and
+                weaknesses?" It's a good idea to practice answering these types of
+                questions beforehand so you feel more comfortable and confident
+                during the interview.
+              </p>
+            </div>
+  
+            <div class="slide">
+              <img src="assets/images/3.jpg" alt="" />
+              <p>
+                <strong>Dress appropriately.</strong> Make sure to dress in
+                business attire and arrive on time for the interview.
+              </p>
+            </div>
+  
+            <div class="slide">
+              <img src="assets/images/4.jpg" alt="" />
+              <p>
+                <strong> Be positive and enthusiastic.</strong> Show that you are
+                excited about the opportunity to work for the company and are
+                confident in your abilities.
+              </p>
+            </div>
+  
+            <div class="slide">
+              <img src="assets/images/5.jpg" alt="" />
+              <p>
+                <strong>Listen carefully</strong> to the interviewer's questions
+                and take your time answering. It's important to fully understand
+                the question before responding, and to provide clear and concise
+                answers.
+              </p>
+            </div>
+  
+            <div class="slide">
+              <img src="assets/images/6.jpg" alt="" />
+              <p>
+                <strong>Follow up after the interview.</strong> It's a good idea
+                to send a thank-you note to the interviewer(s) expressing your
+                appreciation for the opportunity and reiterating your interest in
+                the role. This can help to keep you top-of-mind as the company
+                makes its hiring decision.
+              </p>
+            </div>
+  
+            <div class="slide">
+              <img src="assets/images/7.jpg" alt="" />
+              <p>
+                <strong>Plan your schedule to arrive 10-15 minutes early.</strong>
+                Map out your route to the interview location so you can be sure to
+                arrive on time. Consider doing a practice run. If you're taking
+                public transportation, identify a backup plan if there are delays
+                or closures.
+              </p>
+            </div>
           </div>
-
-          <div class="slide">
-            <img src="assets/images/2.jpg" alt="" />
-            <p>
-              <strong>Prepare for common interview questions.</strong> Some
-              common questions include: "Tell me about yourself," "Why do you
-              want to work for this company," and "What are your strengths and
-              weaknesses?" It's a good idea to practice answering these types of
-              questions beforehand so you feel more comfortable and confident
-              during the interview.
-            </p>
-          </div>
-
-          <div class="slide">
-            <img src="assets/images/3.jpg" alt="" />
-            <p>
-              <strong>Dress appropriately.</strong> Make sure to dress in
-              business attire and arrive on time for the interview.
-            </p>
-          </div>
-
-          <div class="slide">
-            <img src="assets/images/4.jpg" alt="" />
-            <p>
-              <strong> Be positive and enthusiastic.</strong> Show that you are
-              excited about the opportunity to work for the company and are
-              confident in your abilities.
-            </p>
-          </div>
-
-          <div class="slide">
-            <img src="assets/images/5.jpg" alt="" />
-            <p>
-              <strong>Listen carefully</strong> to the interviewer's questions
-              and take your time answering. It's important to fully understand
-              the question before responding, and to provide clear and concise
-              answers.
-            </p>
-          </div>
-
-          <div class="slide">
-            <img src="assets/images/6.jpg" alt="" />
-            <p>
-              <strong>Follow up after the interview.</strong> It's a good idea
-              to send a thank-you note to the interviewer(s) expressing your
-              appreciation for the opportunity and reiterating your interest in
-              the role. This can help to keep you top-of-mind as the company
-              makes its hiring decision.
-            </p>
-          </div>
-
-          <div class="slide">
-            <img src="assets/images/7.jpg" alt="" />
-            <p>
-              <strong>Plan your schedule to arrive 10-15 minutes early.</strong>
-              Map out your route to the interview location so you can be sure to
-              arrive on time. Consider doing a practice run. If you're taking
-              public transportation, identify a backup plan if there are delays
-              or closures.
-            </p>
-          </div>
+  
+          <button (click)="nextButton()">&#62;</button>
         </div>
-
-        <button (click)="nextButton()">&#62;</button>
       </div>
+     
     </div>
 
     <div>
@@ -161,14 +163,24 @@
           <li>"What are your strengths?"</li>
           <li>"What are your weaknesses?"</li>
           <li>"Why should we hire you?"</li>
-          <li>"Tell me about a time when you faced a challenge at work and how you overcame it."</li>
+          <li>
+            "Tell me about a time when you faced a challenge at work and how you
+            overcame it."
+          </li>
           <li>"How do you handle conflict in the workplace?"</li>
-          <li>"Tell me about a time when you made a mistake and how you handled it."</li>
+          <li>
+            "Tell me about a time when you made a mistake and how you handled
+            it."
+          </li>
           <li>"How do you handle a heavy workload?"</li>
           <li>"What are your long-term career goals?"</li>
         </ol>
 
-        <p>It's a good idea to practice answering these questions beforehand so that you feel prepared and confident during the interview. Let me know if you have any other questions.</p>
+        <p>
+          It's a good idea to practice answering these questions beforehand so
+          that you feel prepared and confident during the interview. Let me know
+          if you have any other questions.
+        </p>
       </div>
 
       <div #dress class="content">

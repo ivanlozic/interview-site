@@ -10,7 +10,6 @@ import { DataService } from '../services/data.service';
 export class BooksComponent implements OnInit {
   books: Book[] = [];
 
-
   params = {
     page: 1,
     pageSize: 4
@@ -37,10 +36,6 @@ export class BooksComponent implements OnInit {
     this.getAllBooks()
     window.scrollTo(0,0)
   }
-
-
-
-//
 
 isReadMore = true
 

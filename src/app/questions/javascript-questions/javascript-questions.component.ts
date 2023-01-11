@@ -4,22 +4,22 @@ import { DataService } from 'src/app/services/data.service';
 @Component({
   selector: 'app-javascript-questions',
   templateUrl: './javascript-questions.component.html',
-  styleUrls: ['./javascript-questions.component.scss']
+  styleUrls: ['./javascript-questions.component.scss'],
 })
 export class JavascriptQuestionsComponent implements OnInit {
-  JavaScriptQuestions:any[] = []
+  JavaScriptQuestions: any[] = [];
 
-  constructor(private service:DataService) { }
+  constructor(private service: DataService) {}
 
   ngOnInit(): void {
-    this.getJavaScriptQuestions()
+    this.getJavaScriptQuestions();
   }
 
-  getJavaScriptQuestions(){
+  getJavaScriptQuestions() {
     this.service.getJavaScriptQuestions().subscribe({
-      next:(questions:[]) => {
-        this.JavaScriptQuestions = questions
-      }
-    })
+      next: (questions: []) => {
+        this.JavaScriptQuestions = questions;
+      },
+    });
   }
 }

@@ -14,15 +14,15 @@ a {
   justify-content: space-between;
 }
 p {
-    font-size: 14.5px;
+  font-size: 14.5px;
 }
 
 ngb-pagination ::ng-deep ul > li.active > a {
-    background-color: black !important;
-    color: white;
-    border: none;
+  background-color: black !important;
+  color: white;
+  border: none;
 }
 ngb-pagination ::ng-deep ul > li:not(.active) > a {
-    color: black !important;
-    border: none;
+  color: black !important;
+  border: none;
 }

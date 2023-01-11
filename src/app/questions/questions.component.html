@@ -24,86 +24,127 @@
           sizes, and positions of elements on a page.
 
           <div class="mt-3">
-            <a (click)="scrollToTop()" [routerLink]="['css-questions']">CSS Questions</a>
+            <a (click)="scrollToTop()" [routerLink]="['css-questions']"
+              >CSS Questions</a
+            >
           </div>
         </ng-template>
       </ngb-panel>
 
       <ngb-panel title="JavaScript">
         <ng-template ngbPanelContent>
-          JavaScript is a programming language commonly used to create interactive effects within web browsers. It is often used in combination with HTML and CSS to create web pages and web applications that are more dynamic and interactive.
+          JavaScript is a programming language commonly used to create
+          interactive effects within web browsers. It is often used in
+          combination with HTML and CSS to create web pages and web applications
+          that are more dynamic and interactive.
 
           <div class="mt-3">
-            <a (click)="scrollToTop()" [routerLink]="['javascript-questions']">JavaScript Questions</a>
+            <a (click)="scrollToTop()" [routerLink]="['javascript-questions']"
+              >JavaScript Questions</a
+            >
           </div>
         </ng-template>
       </ngb-panel>
 
       <ngb-panel title="React">
         <ng-template ngbPanelContent>
-          React is a JavaScript library for building user interfaces. It is often used for building single-page applications (SPAs) and mobile applications, and is developed and maintained by Facebook.
+          React is a JavaScript library for building user interfaces. It is
+          often used for building single-page applications (SPAs) and mobile
+          applications, and is developed and maintained by Facebook.
 
           <div class="mt-3">
-            <a (click)="scrollToTop()" [routerLink]="['react-questions']">React Questions</a>
+            <a (click)="scrollToTop()" [routerLink]="['react-questions']"
+              >React Questions</a
+            >
           </div>
         </ng-template>
       </ngb-panel>
 
       <ngb-panel title="Angular">
         <ng-template ngbPanelContent>
-          Angular is a TypeScript-based open-source web application framework developed and maintained by Google. It is a comprehensive framework for building single-page applications (SPAs) and mobile applications, and it includes a wide range of features and capabilities for building modern web applications.
+          Angular is a TypeScript-based open-source web application framework
+          developed and maintained by Google. It is a comprehensive framework
+          for building single-page applications (SPAs) and mobile applications,
+          and it includes a wide range of features and capabilities for building
+          modern web applications.
 
           <div class="mt-3">
-            <a (click)="scrollToTop()" [routerLink]="['angular-questions']">Angular Questions</a>
+            <a (click)="scrollToTop()" [routerLink]="['angular-questions']"
+              >Angular Questions</a
+            >
           </div>
         </ng-template>
       </ngb-panel>
 
       <ngb-panel title="SQL">
         <ng-template ngbPanelContent>
-          SQL (Structured Query Language) is a standard programming language used to manage and manipulate data stored in relational databases. SQL is used to create, modify, and query databases, and it is used to perform a wide range of tasks, including data definition (creating and modifying tables and other database structures), data manipulation (inserting, updating, and deleting data), and data querying (retrieving data from a database).
+          SQL (Structured Query Language) is a standard programming language
+          used to manage and manipulate data stored in relational databases. SQL
+          is used to create, modify, and query databases, and it is used to
+          perform a wide range of tasks, including data definition (creating and
+          modifying tables and other database structures), data manipulation
+          (inserting, updating, and deleting data), and data querying
+          (retrieving data from a database).
 
           <div class="mt-3">
-            <a (click)="scrollToTop()" [routerLink]="['sql-questions']">SQL Questions</a>
+            <a (click)="scrollToTop()" [routerLink]="['sql-questions']"
+              >SQL Questions</a
+            >
           </div>
         </ng-template>
       </ngb-panel>
 
       <ngb-panel title="Git">
         <ng-template ngbPanelContent>
-          Git is a version control system (VCS) that is used to track changes to files and directories, and to collaborate with others on software development projects. Git stores data as a series of snapshots of a project, rather than storing data as a set of differences between files. This allows Git to track the entire history of a project, including who made each change, when they made it, and why they made it.
+          Git is a version control system (VCS) that is used to track changes to
+          files and directories, and to collaborate with others on software
+          development projects. Git stores data as a series of snapshots of a
+          project, rather than storing data as a set of differences between
+          files. This allows Git to track the entire history of a project,
+          including who made each change, when they made it, and why they made
+          it.
 
           <div class="mt-3">
-            <a (click)="scrollToTop()" [routerLink]="['git-questions']">Git Questions</a>
+            <a (click)="scrollToTop()" [routerLink]="['git-questions']"
+              >Git Questions</a
+            >
           </div>
         </ng-template>
       </ngb-panel>
 
       <ngb-panel title="Node.js">
         <ng-template ngbPanelContent>
-          Node.js is an open-source JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to run JavaScript on the server side, outside of a web browser, and it is commonly used for building server-side applications, command-line tools, and more.
+          Node.js is an open-source JavaScript runtime built on Chrome's V8
+          JavaScript engine. It allows developers to run JavaScript on the
+          server side, outside of a web browser, and it is commonly used for
+          building server-side applications, command-line tools, and more.
 
           <div class="mt-3">
-            <a (click)="scrollToTop()" [routerLink]="['nodejs-questions']">Node.js Questions</a>
+            <a (click)="scrollToTop()" [routerLink]="['nodejs-questions']"
+              >Node.js Questions</a
+            >
           </div>
         </ng-template>
       </ngb-panel>
     </ngb-accordion>
 
-    <button (click)="scrollToTop()" class="btn btn-dark m-4" [routerLink]="['random']">
+    <button
+      (click)="scrollToTop()"
+      class="btn btn-dark m-4"
+      [routerLink]="['random']"
+    >
       Random Questions
     </button>
   </div>
 
   <div class="col">
     <router-outlet></router-outlet>
-    <div class="to-top" (click)="scrollToTop()" [ngClass]="{ 'show-scrollTop': windowScrolled }">
+    <div
+      class="to-top"
+      (click)="scrollToTop()"
+      [ngClass]="{ 'show-scrollTop': windowScrolled }"
+    >
       <button class="btn btn-dark btn-top">Top</button>
     </div>
   </div>
-
 </div>
-
-  
-
-

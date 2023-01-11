@@ -90,11 +90,390 @@
     "question": "(HTML) What is span in HTML?",
     "answer": "The HTML <span> element stands for a generic inline container for phrasing content, that does not inherently represent anything. It can also be used to group elements for styling purposes like using the class or id attributes, or because they share attribute values, such as lang."
   },
-  { "question": "what is CSS?", "answer": "css" },
-  { "question": "what is JavaScript?", "answer": "javascript" },
-  { "question": "what is Angular?", "answer": "angular" },
-  { "question": "what is React?", "answer": "react" },
-  { "question": "what is Git?", "answer": "git" },
+   {
+    "question": "(CSS) What is CSS ?",
+    "answer": "CSS is a styling language that makes HTML web pages more presentable. It allows you to add color, design, and buttons, among other things, to a website."
+  },
+  {
+    "question": "(CSS) What are the benefits of using CSS?",
+    "answer": " There are multiple benefits to using CSS, including: Accessibility, Page reformatting, Site-wide consistency, Bandwidth, Separation of the bandwidth of presentation"
+  },
+  {
+    "question": "(CSS) What are the advantages of using CSS? ",
+    "answer": "The style of several documents can be controlled from a single site by using them. Multiple HTML elements can have many documents, where classes can be created.To group styles in complex situations, selector and grouping methods are used. "
+  },
+  {
+    "question": "(CSS) What is the difference between the usage of an ID and a Class? ",
+    "answer": "ID - An ID is unique. A particular ID can be only assigned to a single element. IDs are used when specific styling is being tried to be achieved over a single element. Below is a pictorial example of how to use an ID. Class - Just like the word suggests, a class is a collective way of targetting HTML elements for styling. Classes are not unique and multiple elements can have the same class. In fact, multiple classes can also be added to the same element to achieve the desired style and look. Below is an example of the usage of classes. "
+  },
+  {
+    "question": "(CSS) What is a CSS Preprocessor? What are Sass, Less, and Stylus? Why do people use them?",
+    "answer": " A CSS Preprocessor is a tool used to extend the basic functionality of default vanilla CSS through its own scripting language. It helps us to use complex logical syntax like – variables, functions, mixins, code nesting, and inheritance to name a few, supercharging your vanilla CSS.SASS: Sass is the acronym for “Syntactically Awesome Style Sheets”. SASS can be written in two different syntaxes using SASS or SCSS"
+  },
+  {
+    "question": "(CSS) What is VH/VW (viewport height/ viewport width) in CSS?",
+    "answer": " It's a CSS unit used to measure the height and width in percentage with respect to the viewport. It is used mainly in responsive design techniques. The measure VH is equal to 1/100 of the height of the viewport. If the height of the browser is 1000px, 1vh is equal to 10px. Similarly, if the width is 1000px, then 1 vw is equal to 10px"
+  },
+  {
+    "question": "(CSS) What is responsive web design?",
+    "answer": " Responsive design is an approach to web page creation that makes use of flexible layouts, flexible images and cascading style sheet media queries. The goal of responsive design is to build web pages that detect the visitor's screen size and orientation and change the layout accordingly."
+  },
+  {
+    "question": "(CSS) What is the difference between {visibility: hidden} and {display: none}? ",
+    "answer": " display:none means that the tag in question will not appear on the page at all (although you can still interact with it through the DOM). There will be no space allocated for it between the other tags.visibility:hidden means that unlike display:none, the tag is not visible, but space is allocated for it on the page. The tag is rendered, it just isn't seen on the page."
+  },
+  {
+    "question": "(CSS) What is the use of box-shadow in CSS?",
+    "answer": " The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box-shadow is described by X and Y offsets relative to the element, color, blur and spread radii. Below are a few implementations of box-shadow"
+  },
+  {
+    "question": "(CSS) How would you style an image or element to have rounded corners?",
+    "answer": " Use the border-radius property to add rounded corners to an image. 50% will make the image circular."
+  },
+  {
+    "question": "(CSS) What is CSS flexbox?",
+    "answer": " The flexbox layout officially called CSS flexible box layout module is a new layout module in CSS3. It is made to improve the items align, directions and order in the container even when they are with dynamic, or even unknown size. The prime characteristic of the flex container is the ability to modify the width or height of its children to fill the available space in the best possible way on different screen sizes.Many designers and developers find this flexbox layout easier to use, as the positioning of the elements is simpler thus more complex layouts can be achieved with less code, leading to a simpler development process. Flexbox layout algorithm is direction based unlike the block or inline layout which are vertically and horizontally based. This flexbox layout should be used for small application components, while the new CSS Grid Layout Module is emerging to handle the large scale layouts."
+  },
+  {
+    "question": "(CSS) Explain CSS position property?",
+    "answer": " Absolute: To place an element exactly where you want to place it. absolute position is actually set relative to the element's parent. if no parent is available then the relative place to the page itself (it will default all the way back up to the element).Relative: 'Relative to itself'. Setting position: relative; on an element and no other positioning attributes, it will no effect on its positioning. It allows the use of z-index on the element and it limits the scope of absolutely positioned child elements. Any child element will be absolutely positioned within that block.Fixed: The element is positioned relative to the viewport or the browser window itself. viewport doesn't change if you scroll and hence the fixed element will stay right in the same position. Static: Static default for every single page element. The only reason you would ever set an element to position: static is to forcefully remove some positioning that got applied to an element outside of your control.Sticky: Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned."
+  },
+  {
+    "question": "(CSS) What is the grid system?",
+    "answer": " CSS Grid Layout is the most powerful layout system available in CSS. It is said to be a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system."
+  },
+  {
+    "question": "(CSS) What does !important mean in CSS? ",
+    "answer": " The style is having the important will have the highest precedence and it overrides the cascaded property."
+  },
+  {
+    "question": "(CSS) What are gradients in CSS?",
+    "answer": " The gradient is a property that allows for smooth transitioning between two or more specified colors. There are two types of gradients in CSS: Linear Gradient, Radial Gradient"
+  },
+  {
+    "question": "(CSS) Define z-index ",
+    "answer": " Z-index is used to specify the stack order of elements that overlap each other. Its default value is zero and can take both negative and positive values. A higher z-index value is stacked above the lower index element. It takes the following values- auto, number, initial, and inherit. "
+  },
+  {
+    "question": "(CSS) How do you specify units in the CSS? What are the different ways to do it?",
+    "answer": "There are mainly four different units in the CSS that are px, em, pt, and percentage (%).1. Px (Pixel) is used for fine-grained control and alignment and not cascade. To get it sharp, we can use 1px or multiple of px.2. Em is used to maintain relative size and responsive fonts. 1em = 16px having also the same font size. It is advisable to set the font size to 10px in common practice. 3. Pt (point) is a fixed-size unit that is used in print. 1pt = 1/72 inch. 4. Percentage (%) is used to set the font size with respect to the font size of the body. Thus, it is necessary to set the reasonable font size of the body."
+  },
+  {
+    "question": "(CSS) What property is used for changing the font face?",
+    "answer": " The font-family property is used for changing the font face that is applied to the element in the DOM."
+  },
+  {
+    "question": "(CSS) How is the border-box different from the content box?",
+    "answer": " Border-box consists of properties such as content, padding, and the border with respect to height and width. However, Content-box is a default value property used for the box-sizing as well as it helps to add border and padding to give proper height and width to the box without having a border and padding properties."
+  },
+  {
+    "question": "(CSS) How is opacity specified in CSS3?",
+    "answer": " Opacity is the measure of content transparency. It is measured in the range from 0 to 1. Value 1 means the content is completely opaque. It is not supportable in the internet browser. Also, the 60% of opacity is applicable in the div section where we need to apply the filter property (polyfill) to make it completely opaque."
+  },
+  {
+    "question": "(JavaScript) What is JavaScript ?",
+    "answer": "JavaScript is a lightweight, interpreted programming language with object-oriented capabilities that allows you to build interactivity into otherwise static HTML pages. The general-purpose core of the language has been embedded in Netscape, Internet Explorer, and other web browsers."
+  },
+  {
+    "question": "(JavaScript) What are the data types supported by JavaScript?",
+    "answer": "The data types supported by JavaScript are: Undefined, Null,Boolean,String,Symbol,Number,Object"
+  },
+  {
+    "question": "(JavaScript) Enumerate the differences between Java and JavaScript?",
+    "answer": " Java is a complete programming language. In contrast, JavaScript is a coded program that can be introduced to HTML pages. These two languages are not at all inter-dependent and are designed for different intent. Java is an object-oriented programming (OOPS) or structured programming languages like C++ or C, whereas JavaScript is a client-side scripting language."
+  },
+  {
+    "question": "(JavaScript) What is 'this' keyword in JavaScript?",
+    "answer": " 'this' keyword refers to the object from where it was called."
+  },
+  {
+    "question": "(JavaScript) What is the working of timers in JavaScript?",
+    "answer": " Timers are used to execute a piece of code at a set time or repeat the code in a given interval. This is done by using the functions setTimeout, setInterval, and clearInterval.The setTimeout(function, delay) function is used to start a timer that calls a particular function after the mentioned delay. The setInterval(function, delay) function repeatedly executes the given function in the mentioned delay and only halts when canceled. The clearInterval(id) function instructs the timer to stop.Timers are operated within a single thread, and thus events might queue up, waiting to be executed."
+  },
+  {
+    "question": "(JavaScript) Is JavaScript a case-sensitive language?",
+    "answer": " Yes, JavaScript is a case sensitive language.  The language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters."
+  },
+  {
+    "question": "(JavaScript) What are the scopes of a variable in JavaScript?",
+    "answer": " The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.Global Variables - A global variable has global scope which means it is visible everywhere in your JavaScript code. Local Variables - A local variable will be visible only within a function where it is defined. Function parameters are always local to that function."
+  },
+  {
+    "question": "(JavaScript) What is Callback?",
+    "answer": " A callback is a plain JavaScript function passed to some method as an argument or option. It is a function that is to be executed after another function has finished executing, hence the name 'call back'. In JavaScript, functions are objects. Because of this, functions can take functions as arguments, and can be returned by other functions."
+  },
+  {
+    "question": "(JavaScript) What is Closure?",
+    "answer": " Closures are created whenever a variable that is defined outside the current scope is accessed from within some inner scope. It gives you access to an outer functio's scope from an inner function. In JavaScript, closures are created every time a function is created. To use a closure, simply define a function inside another function and expose it."
+  },
+  {
+    "question": "(JavaScript) What are the variable naming conventions in JavaScript?",
+    "answer": " You should not use any of the JavaScript reserved keyword as variable name. For example, break or boolean variable names are not valid. JavaScript variable names should not start with a numeral (0-9). They must begin with a letter or the underscore character. For example, 123name is an invalid variable name but _123name or name123 is a valid one.JavaScript variable names are case sensitive. For example, Test and test are two different variables."
+  },
+  {
+    "question": "(JavaScript) List out the different ways an HTML element can be accessed in a JavaScript code.",
+    "answer": "(1) getElementById('idname'): Gets an element by its ID name. (2) getElementsByClass('classname'): Gets all the elements that have the given classname. (3) getElementsByTagName('tagname'): Gets all the elements that have the given tag name.(4) querySelector(): This function takes css style selector and returns the first selected element."
+  },
+  {
+    "question": "(JavaScript) What are the ways to define a variable in JavaScript?",
+    "answer": "The three possible ways of defining a variable in JavaScript are: Var - The JavaScript variables statement is used to declare a variable and, optionally, we can initialize the value of that variable. Example: var a =10; Variable declarations are processed before the execution of the code.Const - The idea of const functions is not allow them to modify the object on which they are called. When a function is declared as const, it can be called on any type of object. Let - It is a signal that the variable may be reassigned, such as a counter in a loop, or a value swap in an algorithm. It also signals that the variable will be used only in the block it's defined in. "
+  },
+  {
+    "question": "(JavaScript) What is the difference between the operators ‘==‘ & ‘===‘?",
+    "answer": " The main difference between “==” and “===” operator is that formerly compares variable by making type correction e.g. if you compare a number with a string with numeric literal, == allows that, but === doesn’t allow that, because it not only checks the value but also type of two variable, if two variables are not of the same type “===” return false, while “==” return true."
+  },
+  {
+    "question": "(JavaScript) What is the difference between null & undefined?",
+    "answer": " Undefined means a variable has been declared but has not yet been assigned a value. On the other hand, null is an assignment value. It can be assigned to a variable as a representation of no value. Also, undefined and null are two distinct types: undefined is a type itself (undefined) while null is an object."
+  },
+  {
+    "question": "(JavaScript) Name some of the JavaScript Frameworks",
+    "answer": " A JavaScript framework is an application framework written in JavaScript. It differs from a JavaScript library in its control flow. There are many JavaScript Frameworks available but some of the most commonly used frameworks are: Angular, React, Vue"
+  },
+  {
+    "question": "(JavaScript) What is the difference between innerHTML & innerText?",
+    "answer": " innerHTML - It will process an HTML tag if found in a string, innerText - It will not process an HTML tag if found in a string"
+  },
+  {
+    "question": "(JavaScript) What is NaN in JavaScript?",
+    "answer": " NaN is a short form of Not a Number. Since NaN always compares unequal to any number, including NaN, it is usually used to indicate an error condition for a function that should return a valid number. When a string or something else is being converted into a number and that cannot be done, then we get to see NaN."
+  },
+  {
+    "question": "(JavaScript) What would be the result of 2+5+”3″?",
+    "answer": " Since 2 and 5 are integers, they will be added numerically. And since 3 is a string, its concatenation will be done. So the result would be 73. The ” ” makes all the difference here and represents 3 as a string and not a number."
+  },
+  {
+    "question": "(JavaScript) What are all the looping structures in JavaScript?",
+    "answer": " Following are looping structures in Javascript: For, While, Do-while loops"
+  },
+  {
+    "question": "(JavaScript) What a pop()method in JavaScript is?",
+    "answer": " The pop() method is similar to the shift() method, but the difference is that the Shift method works at the array's start. The pop() method takes the last element off of the given array and returns it. The array on which it is called is then altered."
+  },
+  {
+    "question": "(Angular) What is Angular?",
+    "answer": "Angular is a component-based framework for building scalable web applications, a collection of well-integrated libraries that cover a wide variety of features, including routing, forms management, client-server communication, and more, a suite of developer tools to help you develop, build, test, and update your code"
+  },
+  {
+    "question": "(Angular) What is TypeScript?",
+    "answer": " TypeScript is a superset of JavaScript that offers excellent consistency. It is highly recommended, as it provides some syntactic sugar and makes the code base more comfortable to understand and maintain. Ultimately, TypeScript code compiles down to JavaScript that can run efficiently in any environment. "
+  },
+  {
+    "question": "(Angular) What are Single Page Applications (SPA)?",
+    "answer": " Single-page applications are web applications that load once with new features just being mere additions to the user interface. It does not load new HTML pages to display the new page's content, instead generated dynamically. This is made possible through JavaScript's ability to manipulate the DOM elements on the existing page itself. A SPA approach is faster, thus providing a seamless user experience."
+  },
+  {
+    "question": "(Angular) What are Templates in Angular?",
+    "answer": " Angular Templates are written with HTML that contains Angular-specific elements and attributes. In combination with the model and controller's information, these templates are further rendered to provide a dynamic view to the user."
+  },
+  {
+    "question": "(Angular) What are Components in Angular?",
+    "answer": " Components are the basic building blocks of the user interface in an Angular application. Every component is associated with a template and is a subset of directives. An Angular application typically consists of a root component, which is the AppComponent, that then branches out into other components creating a hierarchy."
+  },
+  {
+    "question": "(Angular) What are Pipes in Angular? ",
+    "answer": " Pipes are simple functions designed to accept an input value, process, and return as an output, a transformed value in a more technical understanding. Angular supports several built-in pipes. However, you can also create custom pipes that cater to your needs. Some key features include: Pipes are defined using the pipe “|” symbol.  Pipes can be chained with other pipes. Pipes can be provided with arguments by using the colon (:) sign."
+  },
+  {
+    "question": "(Angular) What is an ngModule?",
+    "answer": " NgModules are containers that reserve a block of code to an application domain or a workflow. @NgModule takes a metadata object that generally describes the way to compile the template of a component and to generate an injector at runtime. In addition, it identifies the module's components, directives, and pipes, making some of them public, through the export property so that external components can use them."
+  },
+  {
+    "question": "(Angular) What is String Interpolation in Angular?",
+    "answer": " String Interpolation is a one-way data-binding technique that outputs the data from TypeScript code to HTML view. It is denoted using double curly braces. This template expression helps display the data from the component to the view. {{ data }}"
+  },
+  {
+    "question": "(Angular) What are Services in Angular? ",
+    "answer": " Angular Services perform tasks that are used by multiple components. These tasks could be data and image fetching, network connections, and database management among others. They perform all the operational tasks for the components and avoid rewriting of code. A service can be written once and injected into all the components that use that service. "
+  },
+  {
+    "question": "(Angular) What are Promises and Observables in Angular? ",
+    "answer": " While both the concepts deal with Asynchronous events in Angular, Promises handle one such event at a time while observables handle a sequence of events over some time. Promises - They emit a single value at a time. They execute immediately after creation and are not cancellable. They are Push errors to the child promises. Observables - They are only executed when subscribed to them using the subscribe() method. They emit multiple values over a period of time. They help perform operations like forEach, filter, and retry, among others. They deliver errors to the subscribers. When the unsubscribe() method is called, the listener stops receiving further values."
+  },
+  {
+    "question": "(Angular) What is ngOnInit? How is it defined? ",
+    "answer": " ngOnInit is a lifecycle hook and a callback method that is run by Angular to indicate that a component has been created. It takes no parameters and returns a void type."
+  },
+  {
+    "question": "(Angular) How to use ngFor in a tag? ",
+    "answer": " The ngFor directive is used to build lists and tables in the HTML templates. In simple terms, this directive is used to iterate over an array or an object and create a template for each element. "
+  },
+  {
+    "question": "(Angular) What are Template forms? ",
+    "answer": " Template-driven forms use two-way data binding to update the data model in the component as changes are made in the template and vice versa."
+  },
+  {
+    "question": "(Angular) What are router links? ",
+    "answer": " RouterLink is an anchor tag directive that gives the router authority over those elements. Because the navigation routes are set."
+  },
+  {
+    "question": "(Angular) What are Reactive Forms ",
+    "answer": " Reactive forms provide a model-driven approach to handling form inputs whose values change over time. This guide shows you how to create and update a basic form control, progress to using multiple controls in a group, validate form values, and create dynamic forms where you can add or remove controls at run time.Reactive forms use an explicit and immutable approach to managing the state of a form at a given point in time. Each change to the form state returns a new state, which maintains the integrity of the model between changes. Reactive forms are built around observable streams, where form inputs and values are provided as streams of input values, which can be accessed synchronously."
+  },
+  {
+    "question": "(Angular) What is the purpose of the ngIf directive?",
+    "answer": " The purpose of the ngIf directive is to remove or recreate a part of DOM tree in alignment to an expression. If the ngIf directive finds that the expression is evaluating to be false, the element is removed from the tree, else a matching element is inserted into the DOM tree."
+  },
+  {
+    "question": "(Angular) What are modules in Angular?",
+    "answer": " A module is a logical boundary of our application. It is used to encapsulate code dealing with a specific aspect of the application, such as routing, HTTP, validation, etc. The main reason why modules are used is to enhance application composability. For example, if we wish to implement validation logic using different libraries, then for the one we have already implemented, we can create a new validation module and replace the current one with the new one, and our application would work just the same. In Angular, we create a module using the NgModule decorator."
+  },
+  {
+    "question": "(Angular) What is DOM?",
+    "answer": " The full form of DOM is Document Object Model, and it is responsible for representing the content of a web page and changes in the architecture of an application. Here, all the objects are organized in the form of a tree, and the document can easily be modified, manipulated, and accessed only with the help of APIs."
+  },
+  {
+    "question": "(Angular) What is Angular Router?",
+    "answer": " Routing in a single-page frontend application is the task of responding to the changes in the URL made by adding and removing content from the application. This is a complicated task as we first need to intercept a request that changes the browser's URL as we do not wish for the browser to reload. Then, we need to determine which content to remove and which content to add, and finally, we have to change the browser's URL as well to show the user the current page they are on."
+  },
+  {
+    "question": "(Angular) Explain Angular CLI.",
+    "answer": " Angular CLI is otherwise known as Angular command-line interface. Angular supports CLI tools that give professionals the ability to use them to add components, deploy them instantly, and perform testing and many such functions."
+  },
+  {
+    "question": "(Angular) What is HttpClient, and what are its benefits?",
+    "answer": " HttpClient is an Angular module used for communicating with a backend service via the HTTP protocol. Usually, in frontend applications, for sending requests, we use the fetch API. However, the fetch API uses promises. Promises are useful, but they do not offer the rich functionalities that observables offer. This is why we use HttpClient in Angular as it returns the data as an observable, which we can subscribe to, unsubscribe to, and perform several operations on using operators. Observables can be converted to promises, and an observable can be created from a promise as well."
+  },
+  {
+    "question":"(React) What is React?",
+    "answer": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality."
+  },
+  {
+    "question": "(React) What are the features of React? ",
+    "answer": " Major features of React are listed below:1. It uses the virtual DOM instead of the real DOM.2. It uses server-side rendering.3. It follows uni-directional data flow or data binding."
+  },
+  {
+    "question": "(React) What is JSX?",
+    "answer": " JSX is a shorthand for JavaScript XML. This is a type of file used by React which utilizes the expressiveness of JavaScript along with HTML like template syntax. This makes the HTML file really easy to understand. "
+  },
+  {
+    "question": "(React) What do you understand by Virtual DOM? Explain its works.",
+    "answer": " A virtual DOM is a lightweight JavaScript object which originally is just a copy of the real DOM. It is a node tree that lists the elements, their attributes and content as Objects and their properties. React's render function creates a node tree out of the React components. It then updates this tree in response to the mutations in the data model which is caused by various actions done by the user or by the system."
+  },
+  {
+    "question": "(React) In React, everything is a component.",
+    "answer": " Components are the building blocks of a React application’s UI. These components split up the entire UI into small independent and reusable pieces. Then it renders each of these components independent of each other without affecting the rest of the UI."
+  },
+  {
+    "question": "(React) What is Props?",
+    "answer": " Props is the shorthand for Properties in React. They are read-only components which must be kept pure i.e. immutable. They are always passed down from the parent to the child components throughout the application. A child component can never send a prop back to the parent component. This help in maintaining the unidirectional data flow and are generally used to render the dynamically generated data."
+  },
+  {
+    "question": "(React) What is arrow function in React? How is it used?",
+    "answer": " Arrow functions are more of brief syntax for writing the function expression. They are also called ‘fat arrow‘ (=>) the functions. These functions allow to bind the context of the components properly since in ES6 auto binding is not available by default. Arrow functions are mostly useful while working with the higher order functions."
+  },
+  {
+    "question": "(React) What is an event in React?",
+    "answer": "In React, events are the triggered reactions to specific actions like mouse hover, mouse click, key press, etc. Handling these events are similar to handling events in DOM elements. But there are some syntactical differences like: 1. Events are named using camel case instead of just using the lowercase. 2. Events are passed as functions instead of strings. The event argument contains a set of properties, which are specific to an event. Each event type contains its own properties and behavior which can be accessed via its event handler only. "
+  },
+  {
+    "question": "(React) How are forms created in React?",
+    "answer": " React forms are similar to HTML forms. But in React, the state is contained in the state property of the component and is only updated via setState(). Thus the elements can't directly update their state and their submission is handled by a JavaScript function. This function has full access to the data that is entered by the user into a form."
+  },
+  {
+    "question": "(React) Explain React state",
+    "answer": " Every component in react has a built-in state object, which contains all the property values that belong to that component.In other words, the state object controls the behaviour of a component. Any change in the property values of the state object leads to the re-rendering of the component. "
+  },
+  {
+    "question": "(React) What is React Hooks?",
+    "answer": " React Hooks are the built-in functions that permit developers for using the state and lifecycle methods within React components. These are newly added features made available in React 16.8 version. Each lifecycle of a component is having 3 phases which include mount, unmount, and update. Along with that, components have properties and states. Hooks will allow using these methods by developers for improving the reuse of code with higher flexibility navigating the component tree."
+  },
+  {
+    "question": "(React) Explain about basic types of Hooks in React",
+    "answer": "Basic Hooks: 1. useState(): This functional component is used to set and retrieve the state. 2. useEffect(): It enables for performing the side effects in the functional components. 3. useContext(): It is used for creating common data that is to be accessed by the components hierarchy without having to pass the props down to each level. "
+  },
+  {
+    "question": "(React) What is React Router? ",
+    "answer": " React Router refers to the standard library used for routing in React. It permits us for building a single-page web application in React with navigation without even refreshing the page when the user navigates. It also allows to change the browser URL and will keep the user interface in sync with the URL. React Router will make use of the component structure for calling the components, using which appropriate information can be shown. Since React is a component-based framework, it's not necessary to include and use this package. Any other compatible routing library would also work with React."
+  },
+  {
+    "question": "(React) How does rendering work in React?",
+    "answer": " Rendering is an important aspect of React as every single component must be rendered. This is done using the render() function. Once the function is called, it returns an element that represents a DOM component. It is also possible to render more than one HTML element at a time by enclosing the HTML tags and passing them through the render function."
+  },
+  {
+    "question": "(React) What is the meaning of create-react-app in React?",
+    "answer": " The create-react app in React is a simple command-line interface (CLI) that is used in the creation of React applications, which have no build configuration. All tools are pre-configured when using the CLI, and this allows users to focus on the code more than on dependencies to develop the application."
+  },
+  {
+    "question": "(React) What is the meaning of Redux?",
+    "answer": " Redux is used to store the state of the application in a single entity. This simple entity is usually a JavaScript object. Changing states can be done by pushing out actions from the application and writing corresponding objects for them that are used to modify the states."
+  },
+  {
+    "question": "(React) What are refs in React?",
+    "answer": " 'Refs' is short for references in React. Refs are used to store a reference to a single React element or a React component. This is later returned using the render function."
+  },
+  {
+    "question": "(React) Differentiate between a controlled component and an uncontrolled component in React.",
+    "answer": " A controlled component, as the name suggests, is a component over which React has complete control. It is the singular point of data for the forms. An uncontrolled component is one where the form data gets handled by DOM and not the React component. This is usually done using refs in React."
+  },
+  {
+    "question": "(React) What is the use of the second argument that is passed to setState? Is it optional?",
+    "answer": " When setState is finished, a callback function is invoked, and the components get re-rendered in React. Yes, it is an optional argument. Since setState is asynchronous, it takes in another callback function. However, in programming practice, it is always good to use another life cycle method instead of this."
+  },
+  {
+    "question": "(React)  What is the StrictMode component used in React?",
+    "answer": " The StrictMode component when used would benefit users immensely while creating new codebases to understand the components being used However, it can fit well in debugging as well because it will help solve the problem faster when it is wrapped with other components, which could be causing the problem. "
+  },
+  {
+    "question": "(Git) What is Git ?",
+    "answer": "Git is a distributed version control system: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems)."
+  },
+  {
+    "question": "(Git) What is a version control system (VCS)?",
+    "answer": " A VCS keeps track of the contributions of the developers working as a team on the projects. They maintain the history of code changes done and with project evolution, it gives an upper hand to the developers to introduce new code, fixes bugs, and run tests with confidence that their previously working copy could be restored at any moment in case things go wrong"
+  },
+  {
+    "question": "(Git) What is a git repository?",
+    "answer": " A repository is a file structure where git stores all the project-based files. Git can either stores the files on the local or the remote repository."
+  },
+  {
+    "question": "(Git) What does git clone do?",
+    "answer": " The command creates a copy (or clone) of an existing git repository. Generally, it is used to get a copy of the remote repository to the local repository."
+  },
+  {
+    "question": "(Git) What does the command git config do?",
+    "answer": " The git config command is a convenient way to set configuration options for defining the behavior of the repository, user information and preferences, git installation-based configurations, and many such things. "
+  },
+  {
+    "question": "(Git) What is a conflict?",
+    "answer": " Git usually handles feature merges automatically but sometimes while working in a team environment, there might be cases of conflicts such as: 1. When two separate branches have changes to the same line in a file 2. A file is deleted in one branch but has been modified in the other. "
+  },
+  {
+    "question": "(Git) What is the functionality of git ls-tree?",
+    "answer": " This command returns a tree object representation of the current repository along with the mode and the name of each item and the SHA-1 value of the blob"
+  },
+  {
+    "question": "(Git) What does git status command do?",
+    "answer": " git status command is used for showing the difference between the working directory and the index which is helpful for understanding git in-depth and also keep track of the tracked and non-tracked changes"
+  },
+  {
+    "question": "(Git) What does git add command do?",
+    "answer": " This command adds files and changes to the index of the existing directory."
+  },
+  {
+    "question": "(Git) How will you create a git repository? ",
+    "answer": " Have git installed in your system. Then in order to create a git repository, create a folder for the project and then run git init. Doing this will create a .git file in the project folder which indicates that the repository has been created"
+  },
+  {
+    "question": "(Git) What is branch?",
+    "answer": " A branch is nothing but a separate version of the code."
+  },
+  {
+    "question": "(Git) What is pull request?",
+    "answer": " This process is done when there is a need to put a developer's change into another person's code branch. "
+  },
+  {
+    "question": "(Git) Can you tell the difference between Git and GitHub?",
+    "answer": " Git is a distributed version control system installed on local machines which allow developers to keep track of commit histories and supports collaborative work. Github is a cloud-based source code repository developed by using git."
+  },
+  {
+    "question": "(Git) What is a commit message? ",
+    "answer": " The command that is used to write a commit message is “git commit -a”. Now explain about -a flag by saying -a on the command line instructs git to commit the new content of all tracked files that have been modified. Also, mention you can use “git add <file>” before git commit -a if new files need to be committed for the first time."
+  },
+  {
+    "question": "(Git) What is a 'conflict' in git?",
+    "answer": " Git can handle on its own most merges by using its automatic merging features. There arises a conflict when two separate branches have made edits to the same line in a file, or when a file has been deleted in one branch but edited in the other. Conflicts are most likely to happen when working in a team environment."
+  },
   { "question": "what is SQL?", "answer": "sql" },
   { "question": "what is Node.js?", "answer": "node" }
 ]

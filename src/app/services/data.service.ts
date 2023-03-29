@@ -4,11 +4,11 @@ import { map, Observable } from 'rxjs';
 import { Book } from '../model/book';
 import { Message } from '../model/contact-message';
 
-const booksURL = 'http://localhost:3000/api/books';
-const messageURL = 'http://localhost:3000/api/messages';
-const questionsURL = 'http://localhost:3000/api/allQuestions';
+const booksURL = 'https://interview-prep-site.onrender.com/api/books';
+const messageURL = 'https://interview-prep-site.onrender.com/api/messages';
+const questionsURL = 'https://interview-prep-site.onrender.com/api/allQuestions';
 
-const baseUrl = 'http://localhost:3000/api/';
+const baseUrl = 'https://interview-prep-site.onrender.com/api/';
 
 @Injectable({
   providedIn: 'root',

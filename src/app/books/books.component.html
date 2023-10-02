@@ -1,13 +1,13 @@
 <div class="box row m-4" style="margin: auto">
   <div class="col-6 mb-5" *ngFor="let book of books">
     <div class="row">
-      <div class="col-5">
+      <div class="col-md-5 col-12">
         <img
           src="https://interview-prep-site.onrender.com/image/{{ book._id }}.jpg"
           alt="Book Cover"
         />
       </div>
-      <div class="col text">
+      <div class="col-md col-12">
         <div>
           <h4>{{ book.title }}</h4>
           <p class="text">{{ book.description }}</p>
